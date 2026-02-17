@@ -1,0 +1,2711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Giovanni Londi - Web Design & Automation | Maastricht, Netherlands</title>
+    <meta name="title" content="Giovanni Londi - Web Design & Automation | Maastricht, Netherlands">
+    <meta name="description" content="Classical pianist and artist turned web designer & automation specialist in Maastricht. Self-taught software engineer creating minimalist websites and intelligent automation systems for email marketing and workflow management.">
+    <meta name="keywords" content="web designer, web developer, automation specialist, Maastricht, Netherlands, minimalist design, custom websites, email automation, workflow automation, n8n, business automation, personal assistant automation, responsive design, UI/UX design">
+    <meta name="author" content="Giovanni Londi">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://giovannilondi.com/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://giovannilondi.com/">
+    <meta property="og:title" content="Giovanni Londi - Web Design & Automation">
+    <meta property="og:description" content="Classical pianist and artist turned web designer & automation specialist. Creating minimalist websites and intelligent automation systems in Maastricht.">
+    <meta property="og:image" content="https://giovannilondi.com/hero.jpeg">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Giovanni Londi Portfolio">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://giovannilondi.com/">
+    <meta property="twitter:title" content="Giovanni Londi - Web Design & Automation">
+    <meta property="twitter:description" content="Classical pianist and artist turned web designer & automation specialist. Creating minimalist websites and intelligent automation systems in Maastricht.">
+    <meta property="twitter:image" content="https://giovannilondi.com/hero.jpeg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon-new.svg">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Chatbot Styles -->
+    <link rel="stylesheet" href="chatbot.css">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Giovanni Londi",
+      "jobTitle": "Web Designer & Developer",
+      "url": "https://giovannilondi.com",
+      "email": "info@webbiecraft.com",
+      "telephone": "+393894966973",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Maastricht",
+        "addressCountry": "Netherlands"
+      },
+      "sameAs": [
+        "https://giovannilondi.com"
+      ],
+      "knowsAbout": [
+        "Web Design",
+        "Web Development",
+        "UI/UX Design",
+        "Responsive Design",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Minimalist Design",
+        "Business Automation",
+        "Email Marketing Automation",
+        "Workflow Automation",
+        "n8n",
+        "API Integration",
+        "Classical Piano",
+        "Music Composition",
+        "Visual Arts",
+        "Creative Direction"
+      ],
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Web Designer, Developer and Automation Specialist",
+        "occupationLocation": {
+          "@type": "City",
+          "name": "Maastricht"
+        },
+        "skills": "HTML, CSS, JavaScript, Responsive Design, UI/UX Design, Web Development, Business Automation, Email Automation, Workflow Automation, n8n"
+      }
+    }
+    </script>
+
+    <!-- Additional Structured Data for Service -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Giovanni Londi Web Design & Automation",
+      "image": "https://giovannilondi.com/hero.jpeg",
+      "description": "Web design and automation services by a classical pianist and artist. Self-taught software engineer specializing in minimalist design, custom websites, and intelligent automation systems for email marketing and workflow management. Merging artistic vision with technical expertise.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Maastricht",
+        "addressCountry": "NL"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "50.8514",
+        "longitude": "5.6909"
+      },
+      "url": "https://giovannilondi.com",
+      "telephone": "+393894966973",
+      "email": "info@webbiecraft.com",
+      "priceRange": "€400 - €10,000+",
+      "openingHours": "Mo-Fr 09:00-18:00",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Netherlands"
+      }
+    }
+    </script>
+</head>
+<body>
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <a class="logo" onclick="showPage('landing')" aria-label="WebbieCraft - Return to homepage" style="display: flex; align-items: center; gap: 0.75rem;">
+                <img src="assets/images/logo-webbiecraft-accent.svg" alt="WebbieCraft Logo" style="height: 40px; width: auto;">
+                <span style="font-weight: 200; letter-spacing: 2px;">WEBBIECRAFT</span>
+            </a>
+            <button class="burger-menu" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+            </button>
+            <ul role="menubar">
+                <li role="none"><a role="menuitem" onclick="showPage('styles')" aria-label="View design styles">Styles</a></li>
+                <li role="none"><a role="menuitem" onclick="showPage('automations')" aria-label="View automation services">Automations</a></li>
+                <li role="none"><a role="menuitem" onclick="showPage('portfolio')" aria-label="View portfolio projects">Portfolio</a></li>
+                <li role="none"><a role="menuitem" onclick="showPage('community')" aria-label="Join our AI and web design community">Community</a></li>
+                <li role="none"><a role="menuitem" onclick="showPage('contact')" aria-label="Contact Giovanni Londi">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- SCROLLING MARQUEE -->
+    <div class="marquee-strip" aria-hidden="true">
+        <div class="marquee-track">
+            <span class="marquee-content">AI-Powered Design &nbsp;&mdash;&nbsp; Web Development &nbsp;&mdash;&nbsp; Automation &nbsp;&mdash;&nbsp; Minimalist Aesthetic &nbsp;&mdash;&nbsp; Custom Websites &nbsp;&mdash;&nbsp; Email Marketing &nbsp;&mdash;&nbsp; Workflow Automation &nbsp;&mdash;&nbsp; AI Chatbots &nbsp;&mdash;&nbsp; GDPR Compliant &nbsp;&mdash;&nbsp; Maastricht, NL &nbsp;&mdash;&nbsp; </span>
+            <span class="marquee-content">AI-Powered Design &nbsp;&mdash;&nbsp; Web Development &nbsp;&mdash;&nbsp; Automation &nbsp;&mdash;&nbsp; Minimalist Aesthetic &nbsp;&mdash;&nbsp; Custom Websites &nbsp;&mdash;&nbsp; Email Marketing &nbsp;&mdash;&nbsp; Workflow Automation &nbsp;&mdash;&nbsp; AI Chatbots &nbsp;&mdash;&nbsp; GDPR Compliant &nbsp;&mdash;&nbsp; Maastricht, NL &nbsp;&mdash;&nbsp; </span>
+        </div>
+    </div>
+
+    <!-- LANDING PAGE -->
+    <main id="landing" class="page-section active">
+        <!-- Hero Section -->
+        <header class="hero" role="banner">
+            <div class="hero-side-text hero-left">WEB DESIGN / AUTOMATION / CLEAN CODE</div>
+            <div class="hero-content">
+                <h1>DESIGN, DEVELOP<br>& AUTOMATE</h1>
+            </div>
+            <div class="hero-side-text hero-right">Giovanni Londi — Maastricht, Netherlands</div>
+
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator" role="button" tabindex="0" aria-label="Scroll down to view more content">
+                <div class="scroll-mouse" aria-hidden="true">
+                    <div class="scroll-wheel"></div>
+                </div>
+                <span class="scroll-text">Scroll Down</span>
+                <div class="scroll-arrow" aria-hidden="true">↓</div>
+            </div>
+        </header>
+
+        <!-- Intro Section -->
+        <section class="about-section">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">What I Do</h2>
+
+                <div class="text-content animate-on-scroll stagger-1">
+                    <p>
+                        I build clean, minimalist websites and set up automation systems that save you hours every week.
+                        Based in Maastricht, Netherlands, I help small businesses and freelancers look professional
+                        online and stop wasting time on repetitive tasks.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Overview -->
+        <section class="landing-services">
+            <div class="container">
+                <div class="landing-services-grid">
+                    <div class="landing-service-card animate-on-scroll">
+                        <h3>Web Design</h3>
+                        <p>Custom websites that are fast, responsive, and built to convert visitors into clients.</p>
+                        <a class="project-link" onclick="showPage('styles')">Explore Styles →</a>
+                    </div>
+                    <div class="landing-service-card animate-on-scroll stagger-1">
+                        <h3>Automation</h3>
+                        <p>Email sequences, lead capture, AI chatbots, and calendar integrations. Starting at €19.99/month.</p>
+                        <a class="project-link" onclick="showPage('automations')">View Services →</a>
+                    </div>
+                    <div class="landing-service-card animate-on-scroll stagger-2">
+                        <h3>Portfolio</h3>
+                        <p>See the work I've done for clients across Europe. Every project tells a story.</p>
+                        <a class="project-link" onclick="showPage('portfolio')">See My Work →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Proof -->
+        <section class="landing-proof">
+            <div class="container">
+                <div class="landing-proof-content animate-on-scroll">
+                    <h2>Built for real businesses</h2>
+                    <p>
+                        From tattoo studios to jazz musicians, industrial climbers to classical performers —
+                        I've helped businesses across Europe build their online presence and automate their workflow.
+                    </p>
+                    <a class="project-link" onclick="showPage('portfolio')">See the projects →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="landing-cta">
+            <div class="container">
+                <div class="landing-cta-content animate-on-scroll">
+                    <h2>Ready to start?</h2>
+                    <p>Tell me about your project. No commitment, no pressure — just a conversation about what you need.</p>
+                    <a class="landing-cta-button" onclick="showPage('contact')">Get in Touch →</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container">
+                <h3>Stay in the loop</h3>
+                <p>Weekly tips on web design, automation, and AI tools. No spam, just useful stuff.</p>
+                <form class="newsletter-form" action="#" method="POST" onsubmit="return handleNewsletterSubmit(event)">
+                    <input type="email" name="email" placeholder="Your email address" required aria-label="Email address for newsletter">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </section>
+
+        <footer role="contentinfo">
+            <p>&copy; 2025 Giovanni Londi - Web Designer & Developer | <a onclick="showPage('privacy')" style="color: #888; text-decoration: underline; cursor: pointer;">Privacy Policy</a></p>
+        </footer>
+    </main>
+
+    <!-- PORTFOLIO PAGE -->
+    <div id="portfolio" class="page-section">
+        <div class="page-header">
+            <h1>Portfolio</h1>
+            <p>A selection of recent projects showcasing minimalist design and clean code</p>
+        </div>
+
+        <section class="content-section">
+            <div class="container">
+                <div class="portfolio-grid">
+                    <article class="project-card animate-on-scroll">
+                        <div class="project-preview">
+                            <img src="assets/screenshots/screenshot-tommaso.jpg" alt="Tommaso Londi Industrial Climb website design - minimalist professional website with full-screen imagery for Berlin-based climbing service" loading="lazy">
+                        </div>
+                        <div class="project-info">
+                            <h3>Tommaso Londi - Industrial Climb</h3>
+                            <p>A clean, professional website for an industrial climbing service in Berlin. Features full-screen imagery, smooth navigation, and a minimalist design approach.</p>
+                            <a class="project-link" onclick="showProjectDetail('project-tommaso')" aria-label="View Tommaso Londi Industrial Climb project details">View Project →</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card animate-on-scroll stagger-1">
+                        <div class="project-preview">
+                            <img src="assets/screenshots/screenshot-marco.jpg" alt="Marco Baciu jazz guitarist website design - elegant portfolio with video integration, band profiles, and tour dates" loading="lazy">
+                        </div>
+                        <div class="project-info">
+                            <h3>Marco Baciu - Jazz Musician</h3>
+                            <p>An elegant portfolio for a jazz guitarist, featuring video integration, band member profiles, and tour dates. Combines warm aesthetics with modern design.</p>
+                            <a class="project-link" onclick="showProjectDetail('project-marco')" aria-label="View Marco Baciu jazz musician project details">View Project →</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card animate-on-scroll stagger-2">
+                        <div class="project-preview">
+                            <img src="assets/screenshots/screenshot-bloodorange.jpg" alt="Blood Orange Tattoo studio website design - vibrant creative website with bold colors and dynamic layouts" loading="lazy">
+                        </div>
+                        <div class="project-info">
+                            <h3>Blood Orange Tattoo</h3>
+                            <p>A vibrant, creative website featuring bold color choices and dynamic layouts. Demonstrates versatility in design approaches and visual storytelling.</p>
+                            <a class="project-link" onclick="showProjectDetail('project-bloodorange')" aria-label="View Blood Orange Tattoo project details">View Project →</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card animate-on-scroll stagger-3">
+                        <div class="project-preview">
+                            <img src="assets/screenshots/screenshot-bluscuro.jpg" alt="Classical piano and mental health awareness website design - elegant performance platform merging music with spoken word" loading="lazy">
+                        </div>
+                        <div class="project-info">
+                            <h3>Classical Piano & Mental Awareness</h3>
+                            <p>An elegant website for a classical pianist creating mental health awareness performances. Merging classical piano with spoken word and theatrical experiences.</p>
+                            <a class="project-link" onclick="showProjectDetail('project-bluscuro')" aria-label="View Classical Piano Mental Awareness project details">View Project →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container">
+                <h3>Stay in the loop</h3>
+                <p>Weekly tips on web design, automation, and AI tools. No spam, just useful stuff.</p>
+                <form class="newsletter-form" action="#" method="POST" onsubmit="return handleNewsletterSubmit(event)">
+                    <input type="email" name="email" placeholder="Your email address" required aria-label="Email address for newsletter">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Giovanni Londi - Web Designer & Developer | <a onclick="showPage('privacy')" style="color: #888; text-decoration: underline; cursor: pointer;">Privacy Policy</a></p>
+        </footer>
+    </div>
+
+    <!-- PROJECT DETAIL: TOMMASO -->
+    <div id="project-tommaso" class="page-section project-detail">
+        <div class="project-detail-header">
+            <h1>Tommaso Londi - Industrial Climb</h1>
+            <p class="meta">Web Design / Development / 2025</p>
+        </div>
+
+        <section class="project-detail-content">
+            <div class="container">
+                <a class="back-button animate-on-scroll" onclick="showPage('portfolio')">← Back to Portfolio</a>
+
+                <figure class="project-detail-image animate-on-scroll stagger-1">
+                    <img src="assets/screenshots/screenshot-tommaso.jpg" alt="Tommaso Londi Industrial Climb website design - minimalist professional website with full-screen imagery for Berlin-based climbing service" loading="lazy">
+                </figure>
+
+                <div class="project-description animate-on-scroll stagger-2">
+                    <h2>Project Overview</h2>
+                    <p>
+                        A professional website for Tommaso Londi, an industrial climbing specialist based in Berlin.
+                        The project required a clean, minimalist design that would convey trustworthiness and professionalism
+                        while showcasing the unique services offered.
+                    </p>
+
+                    <h3>Design Approach</h3>
+                    <p>
+                        The design focuses on simplicity and clarity, using full-screen hero imagery to immediately
+                        capture attention. The minimalist aesthetic ensures that the content remains the focal point,
+                        while subtle animations and transitions enhance the user experience without overwhelming visitors.
+                    </p>
+
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>Full-screen hero section with high-quality imagery</li>
+                        <li>Smooth page transitions and navigation system</li>
+                        <li>Responsive design optimized for all devices</li>
+                        <li>Service portfolio with detailed descriptions</li>
+                        <li>Clean typography and whitespace management</li>
+                        <li>Contact information prominently displayed</li>
+                    </ul>
+
+                    <h3>Technical Implementation</h3>
+                    <p>
+                        Built with modern HTML5 and CSS3, the website utilizes a single-page architecture with
+                        JavaScript-powered navigation. The design is fully responsive, ensuring optimal viewing
+                        across desktop, tablet, and mobile devices. Special attention was paid to performance
+                        optimization and accessibility standards.
+                    </p>
+
+                    <h3>Results</h3>
+                    <p>
+                        The final website successfully represents Tommaso's industrial climbing business with
+                        a professional, trustworthy online presence that effectively communicates his services
+                        and expertise to potential clients in the Berlin area.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container">
+                <h3>Stay in the loop</h3>
+                <p>Weekly tips on web design, automation, and AI tools. No spam, just useful stuff.</p>
+                <form class="newsletter-form" action="#" method="POST" onsubmit="return handleNewsletterSubmit(event)">
+                    <input type="email" name="email" placeholder="Your email address" required aria-label="Email address for newsletter">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Giovanni Londi - Web Designer & Developer | <a onclick="showPage('privacy')" style="color: #888; text-decoration: underline; cursor: pointer;">Privacy Policy</a></p>
+        </footer>
+    </div>
+
+    <!-- PROJECT DETAIL: MARCO -->
+    <div id="project-marco" class="page-section project-detail">
+        <div class="project-detail-header">
+            <h1>Marco Baciu - Jazz Musician</h1>
+            <p class="meta">Web Design / Development / 2024</p>
+        </div>
+
+        <section class="project-detail-content">
+            <div class="container">
+                <a class="back-button animate-on-scroll" onclick="showPage('portfolio')">← Back to Portfolio</a>
+
+                <figure class="project-detail-image animate-on-scroll stagger-1">
+                    <img src="assets/screenshots/screenshot-marco.jpg" alt="Marco Baciu jazz guitarist website design - elegant portfolio with video integration, band profiles, and tour dates" loading="lazy">
+                </figure>
+
+                <div class="project-description animate-on-scroll stagger-2">
+                    <h2>Project Overview</h2>
+                    <p>
+                        An elegant portfolio website for Marco Baciu, a talented jazz guitarist and composer.
+                        The project aimed to create a sophisticated online presence that reflects Marco's artistic
+                        vision and showcases his musical journey, blending Romanian traditional music with contemporary jazz.
+                    </p>
+
+                    <h3>Design Approach</h3>
+                    <p>
+                        The design embraces warm, earthy tones and elegant typography to mirror the warmth and
+                        sophistication of jazz music. The dark color scheme provides a premium feel while allowing
+                        content and imagery to stand out. Pastel accents add visual interest and guide users through
+                        the narrative.
+                    </p>
+
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>Video integration for performance showcases</li>
+                        <li>Band member profiles with Polaroid-style cards</li>
+                        <li>Tour dates and upcoming events section</li>
+                        <li>Multi-page navigation system</li>
+                        <li>Custom color palette inspired by EPK materials</li>
+                        <li>Contact form for booking inquiries</li>
+                        <li>Social media integration</li>
+                    </ul>
+
+                    <h3>Technical Implementation</h3>
+                    <p>
+                        The website features a single-page application structure with smooth page transitions,
+                        video embedding capabilities, and responsive design elements. Custom fonts and carefully
+                        selected typography create a unique visual identity that stands out in the music industry.
+                    </p>
+
+                    <h3>Results</h3>
+                    <p>
+                        The completed website provides Marco with a professional platform to showcase his music,
+                        connect with fans, and manage booking inquiries. The elegant design has received positive
+                        feedback from both audiences and industry professionals.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container">
+                <h3>Stay in the loop</h3>
+                <p>Weekly tips on web design, automation, and AI tools. No spam, just useful stuff.</p>
+                <form class="newsletter-form" action="#" method="POST" onsubmit="return handleNewsletterSubmit(event)">
+                    <input type="email" name="email" placeholder="Your email address" required aria-label="Email address for newsletter">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Giovanni Londi - Web Designer & Developer | <a onclick="showPage('privacy')" style="color: #888; text-decoration: underline; cursor: pointer;">Privacy Policy</a></p>
+        </footer>
+    </div>
+
+    <!-- PROJECT DETAIL: BLOOD ORANGE -->
+    <div id="project-bloodorange" class="page-section project-detail">
+        <div class="project-detail-header">
+            <h1>Blood Orange Tattoo</h1>
+            <p class="meta">Web Design / Development / 2024</p>
+        </div>
+
+        <section class="project-detail-content">
+            <div class="container">
+                <a class="back-button animate-on-scroll" onclick="showPage('portfolio')">← Back to Portfolio</a>
+
+                <figure class="project-detail-image animate-on-scroll stagger-1">
+                    <img src="assets/screenshots/screenshot-bloodorange.jpg" alt="Blood Orange Tattoo studio website design - vibrant creative website with bold colors and dynamic layouts" loading="lazy">
+                </figure>
+
+                <div class="project-description animate-on-scroll stagger-2">
+                    <h2>Project Overview</h2>
+                    <p>
+                        A vibrant, creative website that showcases bold design choices and dynamic layouts.
+                        This project demonstrates versatility in web design, moving away from minimalism to
+                        embrace color, energy, and visual storytelling.
+                    </p>
+
+                    <h3>Design Approach</h3>
+                    <p>
+                        The Blood Orange project explores the use of bold color palettes and expressive design
+                        elements. Unlike my minimalist work, this website celebrates visual richness while
+                        maintaining excellent usability and clear information hierarchy.
+                    </p>
+
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>Bold color scheme with warm, energetic tones</li>
+                        <li>Dynamic layouts with creative content arrangements</li>
+                        <li>Custom illustrations and graphics</li>
+                        <li>Interactive elements and hover effects</li>
+                        <li>Expressive typography choices</li>
+                        <li>Full responsive design implementation</li>
+                    </ul>
+
+                    <h3>Technical Implementation</h3>
+                    <p>
+                        Built with a focus on visual impact, the website incorporates CSS animations,
+                        creative grid layouts, and carefully orchestrated color transitions. The technical
+                        foundation ensures that bold design choices don't compromise performance or accessibility.
+                    </p>
+
+                    <h3>Results</h3>
+                    <p>
+                        This project successfully demonstrates range and adaptability in design approach,
+                        proving that effective web design can be achieved through various aesthetic directions.
+                        The vibrant design creates memorable user experiences while maintaining professional standards.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container">
+                <h3>Stay in the loop</h3>
+                <p>Weekly tips on web design, automation, and AI tools. No spam, just useful stuff.</p>
+                <form class="newsletter-form" action="#" method="POST" onsubmit="return handleNewsletterSubmit(event)">
+                    <input type="email" name="email" placeholder="Your email address" required aria-label="Email address for newsletter">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Giovanni Londi - Web Designer & Developer | <a onclick="showPage('privacy')" style="color: #888; text-decoration: underline; cursor: pointer;">Privacy Policy</a></p>
+        </footer>
+    </div>
+
+    <!-- PROJECT DETAIL: CLASSICAL PIANO -->
+    <div id="project-bluscuro" class="page-section project-detail">
+        <div class="project-detail-header">
+            <h1>Classical Piano & Mental Awareness</h1>
+            <p class="meta">Web Design / Development / 2024</p>
+        </div>
+
+        <section class="project-detail-content">
+            <div class="container">
+                <a class="back-button animate-on-scroll" onclick="showPage('portfolio')">← Back to Portfolio</a>
+
+                <figure class="project-detail-image animate-on-scroll stagger-1">
+                    <img src="assets/screenshots/screenshot-bluscuro.jpg" alt="Classical piano and mental health awareness website design - elegant performance platform merging music with spoken word" loading="lazy">
+                </figure>
+
+                <div class="project-description animate-on-scroll stagger-2">
+                    <h2>Project Overview</h2>
+                    <p>
+                        An elegant website for a classical pianist based in Maastricht who creates unique
+                        mental health awareness performances. The project required a sophisticated design
+                        that reflects the intersection of classical music, spoken word, and theatrical
+                        experiences focused on authentic connection and reflection.
+                    </p>
+
+                    <h3>Design Approach</h3>
+                    <p>
+                        The design balances artistic sophistication with accessibility, using a refined
+                        color palette that conveys both professionalism and emotional depth. The layout
+                        emphasizes the unique nature of these performances—where sound and dialogue
+                        break down barriers and create spaces for genuine human connection.
+                    </p>
+
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>Elegant typography reflecting classical music aesthetics</li>
+                        <li>Clear presentation of the artist's unique approach to mental awareness</li>
+                        <li>Performance schedule and booking information</li>
+                        <li>Multimedia integration for audio and video samples</li>
+                        <li>Responsive design for all screen sizes</li>
+                        <li>Accessibility features supporting the inclusive mission</li>
+                        <li>Contact and collaboration opportunities</li>
+                    </ul>
+
+                    <h3>Technical Implementation</h3>
+                    <p>
+                        The website is built with clean, semantic HTML and modern CSS, ensuring both
+                        performance and maintainability. The design prioritizes accessibility and user
+                        experience, reflecting the artist's commitment to creating inclusive spaces
+                        for authentic connection through music and dialogue.
+                    </p>
+
+                    <h3>Results</h3>
+                    <p>
+                        The final website successfully captures the essence of these unique performances,
+                        providing visitors with a clear understanding of how classical piano merges with
+                        mental awareness work. The platform effectively communicates the artist's mission
+                        while facilitating bookings and audience engagement.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container">
+                <h3>Stay in the loop</h3>
+                <p>Weekly tips on web design, automation, and AI tools. No spam, just useful stuff.</p>
+                <form class="newsletter-form" action="#" method="POST" onsubmit="return handleNewsletterSubmit(event)">
+                    <input type="email" name="email" placeholder="Your email address" required aria-label="Email address for newsletter">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Giovanni Londi - Web Designer & Developer | <a onclick="showPage('privacy')" style="color: #888; text-decoration: underline; cursor: pointer;">Privacy Policy</a></p>
+        </footer>
+    </div>
+
+    <!-- CONTACT PAGE -->
+    <div id="contact" class="page-section">
+        <div class="page-header">
+            <h1>Contact</h1>
+            <p>Let's discuss your website or automation project</p>
+        </div>
+
+        <section class="content-section">
+            <div class="container">
+                <!-- Form and Get in Touch Grid -->
+                <div class="contact-form-grid">
+                    <div class="contact-left-column animate-on-scroll">
+                        <div class="contact-details">
+                            <h3>Get in Touch</h3>
+                            <p>
+                                I'm available for freelance projects, collaborations, and full-time
+                                opportunities. Whether you need a custom website, automation systems
+                                to streamline your workflow, or technical consultation, I'd love to
+                                hear about your project.
+                            </p>
+                            <p>
+                                Fill out the form or reach out directly via phone or email,
+                                and I'll get back to you as soon as possible.
+                            </p>
+                            <p class="student-discount-notice">
+                                <strong>Students:</strong> I offer special discounted rates for web design projects. Reach out with your student ID to discuss your project!
+                            </p>
+                        </div>
+
+                        <!-- Contact Info Below Text -->
+                        <div class="contact-info-left">
+                            <h3 class="contact-info-title">Contact Information</h3>
+                            <div class="contact-info-items">
+                                <div class="contact-item">
+                                    <div class="contact-label">Phone</div>
+                                    <div class="contact-value">
+                                        <a href="tel:+393894966973">+39 389 496 6973</a>
+                                    </div>
+                                </div>
+
+                                <div class="contact-item">
+                                    <div class="contact-label">Email</div>
+                                    <div class="contact-value">
+                                        <a href="mailto:info@webbiecraft.com">info@webbiecraft.com</a>
+                                    </div>
+                                </div>
+
+                                <div class="contact-item">
+                                    <div class="contact-label">Location</div>
+                                    <div class="contact-value">
+                                        Maastricht, Netherlands
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-container animate-on-scroll stagger-1">
+                        <h3 class="form-title">Start Your Project</h3>
+                        <form action="https://formspree.io/f/xzzowbyp" method="POST" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" required placeholder="John Doe">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" required placeholder="john@example.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="service">Service Type</label>
+                                <select id="service" name="service" required>
+                                    <option value="">What are you looking for?</option>
+                                    <option value="website">Website Design & Development</option>
+                                    <option value="automation">Automation Services</option>
+                                    <option value="both">Website + Automation</option>
+                                    <option value="consultation">Consultation / Not Sure Yet</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="project">Project Description</label>
+                                <textarea id="project" name="project" rows="4" required placeholder="Tell me about your project, goals, and what you're looking to achieve..."></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="budget" id="budget-label">Budget Range</label>
+                                <select id="budget" name="budget" required>
+                                    <option value="">Select service type first</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="timeline">Timeline</label>
+                                <select id="timeline" name="timeline">
+                                    <option value="">When do you need this?</option>
+                                    <option value="urgent">Urgent (Within 2 weeks)</option>
+                                    <option value="1-month">Within 1 month</option>
+                                    <option value="2-3-months">2-3 months</option>
+                                    <option value="flexible">Flexible / No rush</option>
+                                </select>
+                            </div>
+
+                            <button type="submit" class="form-submit">Send Message →</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container">
+                <h3>Stay in the loop</h3>
+                <p>Weekly tips on web design, automation, and AI tools. No spam, just useful stuff.</p>
+                <form class="newsletter-form" action="#" method="POST" onsubmit="return handleNewsletterSubmit(event)">
+                    <input type="email" name="email" placeholder="Your email address" required aria-label="Email address for newsletter">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Giovanni Londi - Web Designer & Developer | <a onclick="showPage('privacy')" style="color: #888; text-decoration: underline; cursor: pointer;">Privacy Policy</a></p>
+        </footer>
+    </div>
+
+    <!-- REVIEWS PAGE -->
+    <div id="reviews" class="page-section">
+        <div class="page-header">
+            <h1>Reviews</h1>
+            <p>What clients say about working with me</p>
+        </div>
+
+        <section class="content-section">
+            <div class="container">
+                <h2 class="reviews-category-title animate-on-scroll">Web Design & Development</h2>
+                <div class="reviews-grid">
+                    <div class="review-card animate-on-scroll">
+                        <p class="review-text">
+                            "Giovanni delivered an exceptional website that perfectly captured our brand's
+                            essence. His attention to detail and minimalist approach resulted in a site
+                            that's both beautiful and highly functional. Communication was excellent
+                            throughout the project."
+                        </p>
+                        <div class="review-author">
+                            <div>
+                                <div class="author-name">Tommaso Londi</div>
+                                <div class="author-role">Industrial Climbing Berlin</div>
+                            </div>
+                            <div class="review-rating">★★★★★</div>
+                        </div>
+                    </div>
+
+                    <div class="review-card animate-on-scroll stagger-1">
+                        <p class="review-text">
+                            "Working with Giovanni was a fantastic experience. He understood my vision
+                            as a musician and translated it into a stunning online presence. The website
+                            is elegant, easy to navigate, and has received countless compliments from fans
+                            and industry professionals alike."
+                        </p>
+                        <div class="review-author">
+                            <div>
+                                <div class="author-name">Marco Baciu</div>
+                                <div class="author-role">Jazz Guitarist & Composer</div>
+                            </div>
+                            <div class="review-rating">★★★★★</div>
+                        </div>
+                    </div>
+
+                    <div class="review-card animate-on-scroll stagger-2">
+                        <p class="review-text">
+                            "Giovanni created a bold, vibrant website that perfectly captures the energy
+                            and creativity of our tattoo studio. His ability to step outside minimalism
+                            and embrace our colorful aesthetic while maintaining professional functionality
+                            was exactly what we needed. The site has brought in tons of new clients!"
+                        </p>
+                        <div class="review-author">
+                            <div>
+                                <div class="author-name">Blood Orange Tattoo</div>
+                                <div class="author-role">Tattoo Studio, Berlin</div>
+                            </div>
+                            <div class="review-rating">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="reviews-category-title animate-on-scroll" style="margin-top: 5rem;">Automation Services</h2>
+                <div class="reviews-grid">
+                    <div class="review-card animate-on-scroll">
+                        <p class="review-text">
+                            "Giovanni set up an email automation system for my industrial climbing business
+                            that has completely transformed how I manage client communications. The automated
+                            follow-ups and booking confirmations have saved me hours every week, and my
+                            clients love the professional touch. The system is reliable, and Giovanni made
+                            sure everything was GDPR compliant. Worth every euro!"
+                        </p>
+                        <div class="review-author">
+                            <div>
+                                <div class="author-name">Tommaso Londi</div>
+                                <div class="author-role">Industrial Climbing Berlin</div>
+                            </div>
+                            <div class="review-rating">★★★★★</div>
+                        </div>
+                    </div>
+
+                    <div class="review-card animate-on-scroll stagger-1">
+                        <p class="review-text">
+                            "As a busy professional, Giovanni's personal assistant automation has been a
+                            game-changer. It reads my emails, adds calendar events automatically, and even
+                            sends meeting confirmations to my clients. What used to take me 30 minutes
+                            every morning now happens automatically. The setup was smooth, everything is
+                            secure with OAuth, and the monthly subscription is incredibly affordable for
+                            the time it saves me."
+                        </p>
+                        <div class="review-author">
+                            <div>
+                                <div class="author-name">Matteo Ilardi</div>
+                                <div class="author-role">Business Consultant</div>
+                            </div>
+                            <div class="review-rating">★★★★★</div>
+                        </div>
+                    </div>
+
+                    <div class="review-card animate-on-scroll stagger-2">
+                        <p class="review-text">
+                            "We hired Giovanni to automate our customer email campaigns, and it's been
+                            fantastic. The HTML emails look professional and on-brand, the tracking shows
+                            us exactly who's engaging with our content, and we've seen a noticeable increase
+                            in repeat bookings. The automation runs smoothly every month, and Giovanni is
+                            always available if we need adjustments. Highly recommend for any business
+                            looking to level up their marketing!"
+                        </p>
+                        <div class="review-author">
+                            <div>
+                                <div class="author-name">Blood Orange Tattoo</div>
+                                <div class="author-role">Tattoo Studio, Berlin</div>
+                            </div>
+                            <div class="review-rating">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container">
+                <h3>Stay in the loop</h3>
+                <p>Weekly tips on web design, automation, and AI tools. No spam, just useful stuff.</p>
+                <form class="newsletter-form" action="#" method="POST" onsubmit="return handleNewsletterSubmit(event)">
+                    <input type="email" name="email" placeholder="Your email address" required aria-label="Email address for newsletter">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Giovanni Londi - Web Designer & Developer | <a onclick="showPage('privacy')" style="color: #888; text-decoration: underline; cursor: pointer;">Privacy Policy</a></p>
+        </footer>
+    </div>
+
+
+
+    <!-- EMAIL AUTOMATION PRICING PAGE -->
+    <!-- NEWSLETTER AI PRICING PAGE -->
+    <div id="newsletter-ai-pricing" class="page-section project-detail">
+        <div class="project-detail-header pricing-gold-header">
+            <button onclick="showPage('automations')" class="back-button">← Back to Automations</button>
+            <h1>AI Newsletter Creator - Pricing</h1>
+            <p>From idea to sent newsletter in 5 minutes. Perfect for coaches, consultants, and content creators.</p>
+        </div>
+
+        <section class="content-section">
+            <div class="container">
+
+                <!-- VALUE PROPOSITION -->
+                <div class="pricing-hero gradient-purple">
+                    <h2>Save 12+ Hours Per Month on Newsletter Creation</h2>
+                    <p>Stop spending hours writing, designing, and sending newsletters. Let AI do the heavy lifting.</p>
+                    <div class="pricing-stats">
+                        <div>
+                            <div class="pricing-stat-value">5 min</div>
+                            <div class="pricing-stat-label">From idea to sent</div>
+                        </div>
+                        <div>
+                            <div class="pricing-stat-value">90%</div>
+                            <div class="pricing-stat-label">Time saved vs manual</div>
+                        </div>
+                        <div>
+                            <div class="pricing-stat-value">100%</div>
+                            <div class="pricing-stat-label">Your brand voice</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PRICING CARD -->
+                <div class="pricing-card-wrapper">
+                    <div class="pricing-card gold-border">
+                        <div class="pricing-badge">MOST POPULAR</div>
+                        <h2>AI Newsletter Creator</h2>
+                        <div class="pricing-amount">€29.99<span>/month</span></div>
+                        <p class="pricing-subtitle">€100 setup fee • <b>First month FREE after setup</b></p>
+
+                        <div class="pricing-features-list">
+                            <h3>What's Included:</h3>
+                            <ul>
+                                <li><span class="pricing-check">✓</span><span><b>AI Content Generation:</b> GPT-4 powered writing that matches your brand voice</span></li>
+                                <li><span class="pricing-check">✓</span><span><b>Professional HTML Design:</b> Beautiful, mobile-responsive email templates</span></li>
+                                <li><span class="pricing-check">✓</span><span><b>Automatic Sending:</b> Delivered directly to your subscriber list</span></li>
+                                <li><span class="pricing-check">✓</span><span><b>Brand Voice Training:</b> AI learns your writing style from past content</span></li>
+                                <li><span class="pricing-check">✓</span><span><b>Simple Chat Interface:</b> Just tell the AI your topic - no technical skills needed</span></li>
+                                <li><span class="pricing-check">✓</span><span><b>Preview & Approve:</b> Review before sending - you're always in control</span></li>
+                                <li><span class="pricing-check">✓</span><span><b>Up to 1,000 subscribers</b></span></li>
+                                <li><span class="pricing-check">✓</span><span><b>4 newsletters per month</b> (1 per week)</span></li>
+                                <li><span class="pricing-check">✓</span><span><b>Analytics & tracking:</b> Opens, clicks, engagement metrics</span></li>
+                                <li><span class="pricing-check">✓</span><span><b>Priority support:</b> Email & chat support included</span></li>
+                            </ul>
+                        </div>
+
+                        <p class="pricing-note">
+                            Setup completed within 96 hours after your onboarding meeting. You'll receive a Calendly link to schedule your brand voice training session.
+                        </p>
+
+                        <a onclick="showPage('contact')" class="automation-contact-button pricing-cta-button gradient-bg" style="cursor: pointer;">Get Started - Contact Me →</a>
+                    </div>
+                </div>
+
+                <!-- HOW IT WORKS -->
+                <div class="pricing-how-it-works">
+                    <h2>How It Works</h2>
+                    <div class="pricing-steps">
+                        <div class="pricing-step">
+                            <div class="pricing-step-number">1</div>
+                            <h3>Tell the AI Your Topic</h3>
+                            <p>Open the chat interface and describe your newsletter topic in plain English. Example: "Write about 5 productivity tips for entrepreneurs"</p>
+                        </div>
+                        <div class="pricing-step">
+                            <div class="pricing-step-number">2</div>
+                            <h3>AI Creates Content & Design</h3>
+                            <p>Our AI generates professional content matching your brand voice and designs a beautiful HTML email. Takes 60 seconds.</p>
+                        </div>
+                        <div class="pricing-step">
+                            <div class="pricing-step-number">3</div>
+                            <h3>Review & Send</h3>
+                            <p>Preview the newsletter, make any edits you want, then approve. It's automatically sent to your subscriber list.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- WHO IS THIS FOR -->
+                <div class="pricing-audience">
+                    <h2>Perfect For:</h2>
+                    <div class="pricing-audience-grid">
+                        <div>
+                            <h3>Coaches & Consultants</h3>
+                            <p>Share weekly tips and insights to nurture leads and stay top-of-mind with potential clients.</p>
+                        </div>
+                        <div>
+                            <h3>Course Creators & Educators</h3>
+                            <p>Keep students engaged with regular lessons, updates, and valuable content between courses.</p>
+                        </div>
+                        <div>
+                            <h3>Small Business Owners</h3>
+                            <p>Send weekly specials, updates, and tips without spending hours on content creation.</p>
+                        </div>
+                        <div>
+                            <h3>Content Creators</h3>
+                            <p>Publish more frequently on Substack, beehiiv, or your own platform without the writing burden.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ -->
+                <div class="pricing-faq">
+                    <h2>Frequently Asked Questions</h2>
+
+                    <div class="pricing-faq-item">
+                        <h3>What if I don't like the AI-generated content?</h3>
+                        <p>You always review and approve before sending. You can request regeneration, make edits, or rewrite sections. The AI learns from your feedback to improve future newsletters.</p>
+                    </div>
+
+                    <div class="pricing-faq-item">
+                        <h3>Can I use my existing email platform (Substack, Mailchimp, etc.)?</h3>
+                        <p>Yes! We can integrate with most major email platforms, or we can handle the sending for you using our infrastructure.</p>
+                    </div>
+
+                    <div class="pricing-faq-item">
+                        <h3>How does brand voice training work?</h3>
+                        <p>During setup, you provide examples of your past writing (blog posts, emails, social media). The AI analyzes your style, tone, and vocabulary to match your unique voice.</p>
+                    </div>
+
+                    <div class="pricing-faq-item">
+                        <h3>What if I need more than 4 newsletters per month?</h3>
+                        <p>Contact me for custom pricing. We can create packages for higher volumes (8, 12, or unlimited newsletters per month).</p>
+                    </div>
+
+                    <div class="pricing-faq-item">
+                        <h3>What if I have more than 1,000 subscribers?</h3>
+                        <p>We offer higher-tier plans for larger lists (up to 5,000, 10,000, or unlimited subscribers). Contact me for pricing.</p>
+                    </div>
+
+                    <div class="pricing-faq-item">
+                        <h3>Is the first month really free?</h3>
+                        <p>Yes! You pay the €100 setup fee upfront, then get a 30-day free trial of the monthly subscription. After 30 days, billing starts at €29.99/month. Cancel anytime.</p>
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <div class="pricing-bottom-cta">
+                    <h2>Ready to Save 12+ Hours Per Month?</h2>
+                    <p>Start creating professional newsletters in minutes, not hours.</p>
+                    <a onclick="showPage('contact')" class="automation-contact-button" style="background: #fff; color: #667eea; font-weight: 700; cursor: pointer;">Get Started - Contact Me →</a>
+                    <p class="pricing-small">€100 setup + €29.99/month • First month FREE • Cancel anytime</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container">
+                <h3>Stay in the loop</h3>
+                <p>Weekly tips on web design, automation, and AI tools. No spam, just useful stuff.</p>
+                <form class="newsletter-form" action="#" method="POST" onsubmit="return handleNewsletterSubmit(event)">
+                    <input type="email" name="email" placeholder="Your email address" required aria-label="Email address for newsletter">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Giovanni Londi - Web Designer & Developer | <a onclick="showPage('privacy')" style="color: #888; text-decoration: underline; cursor: pointer;">Privacy Policy</a></p>
+        </footer>
+    </div>
+
+    <div id="email-automation-pricing" class="page-section project-detail">
+        <div class="project-detail-header">
+            <button onclick="showPage('automations')" class="back-button">← Back to Automations</button>
+            <h1>Email Marketing Automation - Plans & Pricing</h1>
+            <p>Choose the plan that fits your business needs</p>
+        </div>
+
+        <section class="content-section">
+            <div class="container">
+
+                <!-- PRICING COMPARISON GRID -->
+                <div class="pricing-plans-grid">
+
+                    <div class="pricing-plan-card">
+                        <h3>DIY Plan</h3>
+                        <div class="pricing-plan-price">€14.99<span>/month</span></div>
+                        <p class="pricing-plan-setup"><b>No setup fee</b></p>
+                        <ul class="pricing-plan-features">
+                            <li>✓ 50 emails/month</li>
+                            <li>✓ Non-customizable templates</li>
+                            <li>✓ Video tutorial setup</li>
+                            <li>✓ Basic tracking</li>
+                            <li>✓ Live in 24 hours</li>
+                        </ul>
+                        <a onclick="showPage('contact')" class="automation-contact-button pricing-plan-cta" style="cursor: pointer;">Contact Me →</a>
+                    </div>
+
+                    <div class="pricing-plan-card highlight">
+                        <h3>Starter</h3>
+                        <div class="pricing-plan-price">€19.99<span>/month</span></div>
+                        <p class="pricing-plan-setup">€50 setup • <b>1st month FREE</b></p>
+                        <ul class="pricing-plan-features">
+                            <li>✓ 100 emails/month</li>
+                            <li>✓ Pre-made templates</li>
+                            <li>✓ Full-service setup</li>
+                            <li>✓ Real-time tracking</li>
+                            <li>✓ 96h setup after meeting</li>
+                        </ul>
+                        <a onclick="showPage('contact')" class="automation-contact-button pricing-plan-cta" style="cursor: pointer;">Contact Me →</a>
+                    </div>
+
+                    <div class="pricing-plan-card popular">
+                        <div class="pricing-plan-badge">POPULAR</div>
+                        <h3>Professional</h3>
+                        <div class="pricing-plan-price">€24.99<span>/month</span></div>
+                        <p class="pricing-plan-setup">€75 setup • <b>1st month FREE</b></p>
+                        <ul class="pricing-plan-features">
+                            <li>✓ 300 runs/month</li>
+                            <li>✓ First-timer vs recurrent</li>
+                            <li>✓ Advanced segmentation</li>
+                            <li>✓ Custom workflows</li>
+                            <li>✓ Strategy consultation</li>
+                        </ul>
+                        <a onclick="showPage('contact')" class="automation-contact-button pricing-plan-cta" style="cursor: pointer;">Contact Me →</a>
+                    </div>
+
+                    <div class="pricing-plan-card dark-border">
+                        <h3>Unlimited</h3>
+                        <div class="pricing-plan-price">€29.99<span>/month</span></div>
+                        <p class="pricing-plan-setup">€100 setup • <b>1st month FREE</b></p>
+                        <ul class="pricing-plan-features">
+                            <li>✓ <b>Unlimited runs</b></li>
+                            <li>✓ Full customization</li>
+                            <li>✓ Behavior tracking</li>
+                            <li>✓ Priority support</li>
+                            <li>✓ Monthly reports</li>
+                        </ul>
+                        <a onclick="showPage('contact')" class="automation-contact-button pricing-plan-cta" style="cursor: pointer;">Contact Me →</a>
+                    </div>
+
+                </div>
+
+                <p class="pricing-plan-note">
+                    All prices include VAT • Setup fees are one-time only • First month subscription is FREE after setup (except DIY)
+                </p>
+
+                <!-- CUSTOM PROJECTS -->
+                <div class="project-description animate-on-scroll pricing-custom-box">
+                    <h2>Need Something Custom?</h2>
+                    <p>
+                        If your project exceeds the quotas above, requires additional features not listed, or you have
+                        unique automation needs, I'm happy to create a custom solution tailored specifically to your business.
+                    </p>
+                    <p>
+                        <b>Custom projects may include:</b> Higher email volumes, complex multi-step workflows, integrations
+                        with specialized tools, custom reporting dashboards, or any automation challenge you're facing.
+                    </p>
+                    <a onclick="showPage('contact')" class="automation-contact-button" style="cursor: pointer;">Contact Me for Custom Pricing →</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container">
+                <h3>Stay in the loop</h3>
+                <p>Weekly tips on web design, automation, and AI tools. No spam, just useful stuff.</p>
+                <form class="newsletter-form" action="#" method="POST" onsubmit="return handleNewsletterSubmit(event)">
+                    <input type="email" name="email" placeholder="Your email address" required aria-label="Email address for newsletter">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Giovanni Londi - Web Designer & Developer | <a onclick="showPage('privacy')" style="color: #888; text-decoration: underline; cursor: pointer;">Privacy Policy</a></p>
+        </footer>
+    </div>
+
+    <!-- PERSONAL ASSISTANT AUTOMATION PRICING PAGE -->
+    <div id="assistant-automation-pricing" class="page-section project-detail">
+        <div class="project-detail-header">
+            <button onclick="showPage('automations')" class="back-button">← Back to Automations</button>
+            <h1>Personal Assistant Automation - Pricing</h1>
+            <p>Intelligent email and calendar management</p>
+        </div>
+
+        <section class="content-section">
+            <div class="container">
+
+                <!-- PRICING CARD -->
+                <div class="pricing-card-wrapper">
+                    <div class="pricing-card">
+                        <h2>Full Service Plan</h2>
+                        <div class="pricing-amount">€29.99<span>/month</span></div>
+                        <p class="pricing-subtitle">€75 setup fee • <b>First month FREE after setup</b></p>
+
+                        <div class="pricing-features-list">
+                            <h3>What's Included:</h3>
+                            <ul>
+                                <li><span class="pricing-check">✓</span><span>Intelligent email management with AI</span></li>
+                                <li><span class="pricing-check">✓</span><span>Automated email responses</span></li>
+                                <li><span class="pricing-check">✓</span><span>Google Calendar integration</span></li>
+                                <li><span class="pricing-check">✓</span><span>Automatic meeting confirmations & scheduling</span></li>
+                                <li><span class="pricing-check">✓</span><span>Unlimited automation runs</span></li>
+                                <li><span class="pricing-check">✓</span><span>Real-time tracking & analytics</span></li>
+                                <li><span class="pricing-check">✓</span><span>GDPR compliant - OAuth 2.0 secure</span></li>
+                                <li><span class="pricing-check">✓</span><span>Setup within 96 hours after meeting</span></li>
+                            </ul>
+                        </div>
+
+                        <div class="pricing-value-box gold">
+                            <b>Saves 10+ hours per month</b> by automating email responses, meeting confirmations, and calendar management. Perfect for busy professionals and consultants.
+                        </div>
+
+                        <a onclick="showPage('contact')" class="automation-contact-button pricing-cta-button" style="cursor: pointer;">Get Started - Contact Me →</a>
+                    </div>
+                </div>
+
+                <p class="pricing-plan-note">
+                    Price includes VAT • Setup fee is one-time only • First month subscription is FREE after setup
+                </p>
+
+                <!-- CUSTOM PROJECTS -->
+                <div class="project-description animate-on-scroll pricing-custom-box">
+                    <h2>Need Something Custom?</h2>
+                    <p>
+                        If your project requires additional features beyond standard personal assistant automation, such as
+                        integration with specialized CRM systems, custom workflows, or advanced AI capabilities, I can create
+                        a tailored solution for your specific needs.
+                    </p>
+                    <p>
+                        <b>Custom projects may include:</b> Multi-channel communication management, integration with business
+                        tools beyond Google Suite, custom AI training for industry-specific tasks, or any unique automation challenge.
+                    </p>
+                    <a onclick="showPage('contact')" class="automation-contact-button" style="cursor: pointer;">Contact Me for Custom Pricing →</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container">
+                <h3>Stay in the loop</h3>
+                <p>Weekly tips on web design, automation, and AI tools. No spam, just useful stuff.</p>
+                <form class="newsletter-form" action="#" method="POST" onsubmit="return handleNewsletterSubmit(event)">
+                    <input type="email" name="email" placeholder="Your email address" required aria-label="Email address for newsletter">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Giovanni Londi - Web Designer & Developer | <a onclick="showPage('privacy')" style="color: #888; text-decoration: underline; cursor: pointer;">Privacy Policy</a></p>
+        </footer>
+    </div>
+
+    <!-- FORM AUTOMATION PRICING PAGE -->
+    <div id="form-automation-pricing" class="page-section project-detail">
+        <div class="project-detail-header">
+            <button onclick="showPage('automations')" class="back-button">← Back to Automations</button>
+            <h1>Form Automation & Data Management - Plans & Pricing</h1>
+            <p>Transform your forms into intelligent data collection systems</p>
+        </div>
+
+        <section class="content-section">
+            <div class="container">
+
+                <!-- PRICING COMPARISON GRID -->
+                <div class="pricing-plans-grid wide-cards">
+
+                    <div class="pricing-plan-card highlight wide-cards">
+                        <h3>Basic Plan</h3>
+                        <div class="pricing-plan-price">€19.99<span>/month</span></div>
+                        <p class="pricing-plan-setup">€50 setup • <b>1st month FREE</b></p>
+                        <ul class="pricing-plan-features">
+                            <li>✓ 75 form submissions/month</li>
+                            <li>✓ Custom confirmation emails</li>
+                            <li>✓ Google Sheets cataloging</li>
+                            <li>✓ GDPR-compliant</li>
+                            <li>✓ Automatic data backup</li>
+                            <li>✓ Real-time notifications</li>
+                            <li>✓ 96h setup after meeting</li>
+                        </ul>
+                        <div class="pricing-value-box blue">
+                            <b>Perfect for:</b> Small businesses collecting leads and inquiries
+                        </div>
+                        <a onclick="showPage('contact')" class="automation-contact-button pricing-plan-cta" style="cursor: pointer;">Contact Me →</a>
+                    </div>
+
+                    <div class="pricing-plan-card featured wide-cards">
+                        <div class="pricing-plan-badge">RECOMMENDED</div>
+                        <h3>Professional Plan</h3>
+                        <div class="pricing-plan-price">€29.99<span>/month</span></div>
+                        <p class="pricing-plan-setup">€75 setup • <b>1st month FREE</b></p>
+                        <ul class="pricing-plan-features">
+                            <li>✓ <b>Unlimited submissions</b></li>
+                            <li>✓ All Basic features included</li>
+                            <li>✓ Organization by service type</li>
+                            <li>✓ Categorization by price range</li>
+                            <li>✓ Custom data fields</li>
+                            <li>✓ Advanced analytics</li>
+                            <li>✓ 96h setup after meeting</li>
+                        </ul>
+                        <div class="pricing-value-box gold">
+                            <b>Never lose a lead</b> - All submissions organized, backed up, and ready for follow-up
+                        </div>
+                        <a onclick="showPage('contact')" class="automation-contact-button pricing-plan-cta" style="cursor: pointer;">Contact Me →</a>
+                    </div>
+
+                </div>
+
+                <p class="pricing-plan-note">
+                    All prices include VAT • Setup fees are one-time only • First month subscription is FREE after setup
+                </p>
+
+                <!-- CUSTOM PROJECTS -->
+                <div class="project-description animate-on-scroll pricing-custom-box">
+                    <h2>Need Something Custom?</h2>
+                    <p>
+                        If your project requires higher form volumes, integration with platforms beyond Google Sheets (like
+                        CRMs, databases, or custom APIs), advanced data processing, or specialized automation workflows, I can
+                        build a custom solution tailored to your exact requirements.
+                    </p>
+                    <p>
+                        <b>Custom projects may include:</b> Integration with Salesforce, HubSpot, or custom databases, advanced
+                        data validation and processing, multi-form coordination, or any complex form automation challenge.
+                    </p>
+                    <a onclick="showPage('contact')" class="automation-contact-button" style="cursor: pointer;">Contact Me for Custom Pricing →</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container">
+                <h3>Stay in the loop</h3>
+                <p>Weekly tips on web design, automation, and AI tools. No spam, just useful stuff.</p>
+                <form class="newsletter-form" action="#" method="POST" onsubmit="return handleNewsletterSubmit(event)">
+                    <input type="email" name="email" placeholder="Your email address" required aria-label="Email address for newsletter">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Giovanni Londi - Web Designer & Developer | <a onclick="showPage('privacy')" style="color: #888; text-decoration: underline; cursor: pointer;">Privacy Policy</a></p>
+        </footer>
+    </div>
+
+    <!-- AI CHATBOT AUTOMATION PRICING PAGE -->
+    <div id="chatbot-automation-pricing" class="page-section project-detail">
+        <div class="project-detail-header">
+            <button onclick="showPage('automations')" class="back-button">← Back to Automations</button>
+            <h1>AI Chatbot Integration - Pricing</h1>
+            <p>24/7 intelligent customer support on your website</p>
+        </div>
+
+        <section class="content-section">
+            <div class="container">
+
+                <!-- PRICING CARD -->
+                <div class="pricing-card-wrapper">
+                    <div class="pricing-card">
+                        <h2>Full Service Plan</h2>
+                        <div class="pricing-amount">€49.99<span>/month</span></div>
+                        <p class="pricing-subtitle">€150 setup fee • <b>First month FREE after setup</b></p>
+
+                        <div class="pricing-features-list">
+                            <h3>What's Included:</h3>
+                            <ul>
+                                <li><span class="pricing-check">✓</span><span>Custom-trained AI chatbot on your business data</span></li>
+                                <li><span class="pricing-check">✓</span><span>24/7 instant customer support</span></li>
+                                <li><span class="pricing-check">✓</span><span>Lead qualification & data collection</span></li>
+                                <li><span class="pricing-check">✓</span><span>Seamless website integration</span></li>
+                                <li><span class="pricing-check">✓</span><span>Unlimited conversations</span></li>
+                                <li><span class="pricing-check">✓</span><span>Custom training & monthly updates</span></li>
+                                <li><span class="pricing-check">✓</span><span>GDPR compliant infrastructure</span></li>
+                                <li><span class="pricing-check">✓</span><span>Setup within 5-7 days after meeting</span></li>
+                            </ul>
+                        </div>
+
+                        <div class="pricing-value-box gold">
+                            <b>24/7 availability</b> means you never miss a potential customer, even outside business hours. Perfect for e-commerce sites and businesses receiving frequent inquiries.
+                        </div>
+
+                        <a onclick="showPage('contact')" class="automation-contact-button pricing-cta-button" style="cursor: pointer;">Get Started - Contact Me →</a>
+                    </div>
+                </div>
+
+                <p class="pricing-plan-note">
+                    Price includes VAT • Setup fee is one-time only • First month subscription is FREE after setup
+                </p>
+
+                <!-- CUSTOM PROJECTS -->
+                <div class="project-description animate-on-scroll pricing-custom-box">
+                    <h2>Need Something Custom?</h2>
+                    <p>
+                        If you need an AI chatbot with advanced capabilities beyond the standard offering -- such as integration
+                        with multiple data sources, multi-language support, voice capabilities, or complex conversational flows -- I
+                        can develop a custom AI solution tailored to your business requirements.
+                    </p>
+                    <p>
+                        <b>Custom projects may include:</b> Integration with proprietary systems, advanced natural language
+                        processing, custom AI model training, multi-platform deployment (web + mobile + messaging apps), or
+                        enterprise-level AI solutions.
+                    </p>
+                    <a onclick="showPage('contact')" class="automation-contact-button" style="cursor: pointer;">Contact Me for Custom Pricing →</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container">
+                <h3>Stay in the loop</h3>
+                <p>Weekly tips on web design, automation, and AI tools. No spam, just useful stuff.</p>
+                <form class="newsletter-form" action="#" method="POST" onsubmit="return handleNewsletterSubmit(event)">
+                    <input type="email" name="email" placeholder="Your email address" required aria-label="Email address for newsletter">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Giovanni Londi - Web Designer & Developer | <a onclick="showPage('privacy')" style="color: #888; text-decoration: underline; cursor: pointer;">Privacy Policy</a></p>
+        </footer>
+    </div>
+
+    <!-- COMMUNITY PAGE -->
+    <div id="community" class="page-section">
+        <div class="page-header">
+            <h1>Community</h1>
+            <p>AI tips, web design insights, and automation knowledge -- join a growing community of builders</p>
+        </div>
+
+        <section class="content-section">
+            <div class="container">
+                <div class="project-description animate-on-scroll">
+                    <h2>Learn, Build, and Grow Together</h2>
+                    <p>
+                        The WebbieCraft Community is where AI enthusiasts, web designers, and automation builders
+                        come together to share knowledge, tips, and real-world experience. Whether you are just
+                        getting started with AI tools or building complex automation workflows, this is your space.
+                    </p>
+                </div>
+
+                <div class="community-grid animate-on-scroll stagger-1">
+                    <div class="community-card">
+                        <div class="community-card-icon">
+                            <svg viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="#000" stroke-width="2">
+                                <circle cx="24" cy="24" r="10"/>
+                                <path d="M24 4v6M24 38v6M4 24h6M38 24h6M8.9 8.9l4.3 4.3M34.8 34.8l4.3 4.3M8.9 39.1l4.3-4.3M34.8 13.2l4.3-4.3"/>
+                            </svg>
+                        </div>
+                        <h3>AI Tips & Tutorials</h3>
+                        <p>
+                            Practical guides on using ChatGPT, Claude, Gemini, and other AI models effectively.
+                            Learn prompt engineering, workflow integration, and how to get real results from AI tools.
+                        </p>
+                    </div>
+
+                    <div class="community-card">
+                        <div class="community-card-icon">
+                            <svg viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="#000" stroke-width="2">
+                                <rect x="6" y="6" width="36" height="36" rx="4"/>
+                                <line x1="6" y1="16" x2="42" y2="16"/>
+                                <rect x="12" y="22" width="10" height="8" rx="1"/>
+                                <line x1="28" y1="24" x2="36" y2="24"/>
+                                <line x1="28" y1="28" x2="34" y2="28"/>
+                            </svg>
+                        </div>
+                        <h3>Web Design Insights</h3>
+                        <p>
+                            Minimalist design principles, responsive layout techniques, CSS patterns, and
+                            practical tips for building fast, beautiful websites without frameworks.
+                        </p>
+                    </div>
+
+                    <div class="community-card">
+                        <div class="community-card-icon">
+                            <svg viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="#000" stroke-width="2">
+                                <circle cx="16" cy="20" r="6"/>
+                                <circle cx="32" cy="20" r="6"/>
+                                <circle cx="24" cy="36" r="6"/>
+                                <line x1="20" y1="24" x2="28" y2="16"/>
+                                <line x1="28" y1="24" x2="20" y2="16"/>
+                                <line x1="16" y1="26" x2="20" y2="32"/>
+                                <line x1="32" y1="26" x2="28" y2="32"/>
+                            </svg>
+                        </div>
+                        <h3>Building AI Agents</h3>
+                        <p>
+                            Step-by-step breakdowns of AI agent architectures, n8n workflows, and automation
+                            pipelines. From simple chatbots to complex multi-step reasoning systems.
+                        </p>
+                    </div>
+
+                    <div class="community-card">
+                        <div class="community-card-icon">
+                            <svg viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="#000" stroke-width="2">
+                                <rect x="6" y="10" width="36" height="28" rx="3"/>
+                                <line x1="6" y1="18" x2="42" y2="18"/>
+                                <line x1="16" y1="24" x2="32" y2="24"/>
+                                <line x1="16" y1="30" x2="28" y2="30"/>
+                            </svg>
+                        </div>
+                        <h3>Model Recommendations</h3>
+                        <p>
+                            Honest comparisons of AI models for different use cases. Which model works best for
+                            coding, writing, image generation, and business automation -- based on real testing.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="community-cta animate-on-scroll stagger-2">
+                    <h3>Community Coming Soon</h3>
+                    <p>
+                        We are building something special -- a dedicated space where AI enthusiasts, web designers,
+                        and automation builders can learn from each other, share real-world workflows, and stay ahead
+                        of the curve. Expect exclusive tutorials, live discussions, early access to tools, and a
+                        network of people who are serious about using AI to build better websites and smarter businesses.
+                    </p>
+                    <p style="font-size: 1.1rem; margin-top: 1.5rem; opacity: 0.9;">
+                        Want to be the first to know when we launch? Get in touch and we will make sure you are on the list.
+                    </p>
+                    <div style="display: flex; gap: 2rem; justify-content: center; margin-top: 2rem; flex-wrap: wrap;">
+                        <a class="automation-contact-button" onclick="showPage('contact')"
+                           style="background: #fff; color: #000; cursor: pointer;">Notify Me at Launch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container">
+                <h3>Stay in the loop</h3>
+                <p>Weekly tips on web design, automation, and AI tools. No spam, just useful stuff.</p>
+                <form class="newsletter-form" action="#" method="POST" onsubmit="return handleNewsletterSubmit(event)">
+                    <input type="email" name="email" placeholder="Your email address" required aria-label="Email address for newsletter">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Giovanni Londi - Web Designer & Developer | <a onclick="showPage('privacy')" style="color: #888; text-decoration: underline; cursor: pointer;">Privacy Policy</a></p>
+        </footer>
+    </div>
+
+    <!-- AUTOMATIONS PAGE -->
+    <div id="automations" class="page-section">
+        <div class="page-header">
+            <h1>Automation Services</h1>
+            <p class="automation-header-price">From €19.99/month</p>
+            <p class="automation-header-value">Less than €0.66/day - Save 10+ hours of manual work monthly</p>
+        </div>
+
+        <section class="content-section">
+            <div class="container">
+                <div class="automations-grid">
+                    <!-- NEWSLETTER AI - FEATURED -->
+                    <article class="automation-card animate-on-scroll" style="border: 3px solid #667eea; background: linear-gradient(135deg, #f5f7ff 0%, #fff 100%);">
+                        <div style="position: absolute; top: -12px; right: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #fff; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">✨ NEW</div>
+                        <div class="automation-preview" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 200px;">
+                            <h3 class="automation-preview-title" style="color: #fff; margin-bottom: 1rem;">AI Newsletter Creator</h3>
+                            <svg viewBox="0 0 200 200" style="width: 120px; height: 120px;">
+                                <!-- AI Brain + Newsletter Icon -->
+                                <circle cx="100" cy="100" r="60" fill="none" stroke="#fff" stroke-width="3" opacity="0.3"/>
+
+                                <!-- AI Neural Network -->
+                                <circle cx="70" cy="80" r="8" fill="#fff"/>
+                                <circle cx="100" cy="70" r="8" fill="#fff"/>
+                                <circle cx="130" cy="80" r="8" fill="#fff"/>
+                                <circle cx="85" cy="110" r="8" fill="#fff"/>
+                                <circle cx="115" cy="110" r="8" fill="#fff"/>
+                                <circle cx="100" cy="135" r="8" fill="#fff"/>
+
+                                <!-- Connections -->
+                                <line x1="70" y1="80" x2="85" y2="110" stroke="#fff" stroke-width="2" opacity="0.6"/>
+                                <line x1="70" y1="80" x2="100" y2="70" stroke="#fff" stroke-width="2" opacity="0.6"/>
+                                <line x1="100" y1="70" x2="115" y2="110" stroke="#fff" stroke-width="2" opacity="0.6"/>
+                                <line x1="100" y1="70" x2="130" y2="80" stroke="#fff" stroke-width="2" opacity="0.6"/>
+                                <line x1="130" y1="80" x2="115" y2="110" stroke="#fff" stroke-width="2" opacity="0.6"/>
+                                <line x1="85" y1="110" x2="100" y2="135" stroke="#fff" stroke-width="2" opacity="0.6"/>
+                                <line x1="115" y1="110" x2="100" y2="135" stroke="#fff" stroke-width="2" opacity="0.6"/>
+
+                                <!-- Newsletter/Document -->
+                                <rect x="75" y="150" width="50" height="35" fill="#fff" rx="3"/>
+                                <line x1="82" y1="160" x2="118" y2="160" stroke="#667eea" stroke-width="2"/>
+                                <line x1="82" y1="168" x2="112" y2="168" stroke="#764ba2" stroke-width="2"/>
+                                <line x1="82" y1="176" x2="118" y2="176" stroke="#667eea" stroke-width="1.5"/>
+
+                                <!-- Sparkles -->
+                                <text x="140" y="65" fill="#FFD700" font-size="20">✨</text>
+                                <text x="50" y="130" fill="#FFD700" font-size="16">✨</text>
+                            </svg>
+                        </div>
+                        <div class="automation-info">
+                            <p class="automation-description">
+                                Go from idea to published newsletter in 5 minutes. Tell our AI chatbot your topic, and it automatically generates professional content, designs beautiful HTML emails, and sends them to your subscribers. Perfect for coaches, consultants, and content creators.
+                            </p>
+                            <ul class="automation-features">
+                                <li>AI-powered content generation (GPT-4)</li>
+                                <li>Professional HTML email design</li>
+                                <li>Automatic sending to your email list</li>
+                                <li>Brand voice training (learns your style)</li>
+                                <li>Simple chat interface (no technical skills needed)</li>
+                                <li>Save 12+ hours per month on newsletter creation</li>
+                            </ul>
+                            <div class="automation-pricing">
+                                <span class="price-tag">€29.99/month</span>
+                                <span class="price-note">€100 setup fee • Price includes VAT • 1st month FREE</span>
+                            </div>
+                            <a class="project-link" onclick="showProjectDetail('newsletter-ai-pricing')" style="margin-top: 1.5rem; display: inline-block; background: #000; color: #fff; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">View Details & Pricing →</a>
+                            <span class="automation-tag" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #fff;">Save 12+ Hours Monthly</span>
+                        </div>
+                    </article>
+
+                    <article class="automation-card animate-on-scroll">
+                        <div class="automation-preview email-automation">
+                            <h3 class="automation-preview-title">Email Marketing Automation</h3>
+                            <div class="automation-icon">
+                                <div class="icon-graphic">
+                                    <div class="email-envelope"></div>
+                                    <div class="email-lines"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="automation-info">
+                            <p class="automation-description">
+                                Create sophisticated email automation systems that help businesses maintain customer
+                                relationships and acquire new clients. Beautifully designed HTML emails with tracking
+                                and detailed analytics.
+                            </p>
+                            <ul class="automation-features">
+                                <li>Custom HTML email templates</li>
+                                <li>Email list management & segmentation</li>
+                                <li>Real-time open & click tracking</li>
+                                <li>Customer retention campaigns</li>
+                            </ul>
+                            <div class="automation-pricing">
+                                <span class="price-tag">Starting from €14.99/month</span>
+                                <span class="price-note">All prices include VAT • Multiple plans available</span>
+                            </div>
+                            <a class="project-link" onclick="showProjectDetail('email-automation-pricing')" style="margin-top: 1.5rem; display: inline-block; background: #000; color: #fff; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer; text-decoration: none;">View Plans & Pricing →</a>
+                            <span class="automation-tag">Save 10+ Hours Monthly</span>
+                        </div>
+                    </article>
+
+                    <article class="automation-card animate-on-scroll stagger-1">
+                        <div class="automation-preview assistant-automation">
+                            <h3 class="automation-preview-title">Personal Assistant Automation</h3>
+                            <div class="automation-icon">
+                                <div class="icon-graphic">
+                                    <div class="calendar-grid"></div>
+                                    <div class="calendar-event"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="automation-info">
+                            <p class="automation-description">
+                                Intelligent automation systems that function as personal assistants, managing
+                                email correspondence and calendar events seamlessly. Read emails, craft responses,
+                                and synchronize appointments automatically.
+                            </p>
+                            <ul class="automation-features">
+                                <li>Intelligent email management</li>
+                                <li>Automated responses with AI</li>
+                                <li>Google Calendar integration</li>
+                                <li>Meeting confirmations & scheduling</li>
+                                <li>Unlimited automation runs</li>
+                                <li>Real-time tracking & analytics</li>
+                            </ul>
+                            <div class="automation-pricing">
+                                <span class="price-tag">€29.99/month</span>
+                                <span class="price-note">Price includes VAT • Full-service setup</span>
+                            </div>
+                            <a class="project-link" onclick="showProjectDetail('assistant-automation-pricing')" style="margin-top: 1.5rem; display: inline-block; background: #000; color: #fff; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer; text-decoration: none;">View Details & Pricing →</a>
+                            <span class="automation-tag">Save 10+ Hours Monthly</span>
+                        </div>
+                    </article>
+
+                    <article class="automation-card animate-on-scroll stagger-2">
+                        <div class="automation-preview email-automation">
+                            <h3 class="automation-preview-title">Form Automation & Data Management</h3>
+                            <div class="automation-icon">
+                                <div class="icon-graphic">
+                                    <div class="form-document">
+                                        <div class="form-lines">
+                                            <div class="line"></div>
+                                        </div>
+                                        <div class="form-checkmark"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="automation-info">
+                            <p class="automation-description">
+                                Transform your website forms into intelligent data collection systems. Automatically send
+                                confirmation emails to users, organize submissions into Google Sheets, and maintain
+                                GDPR-compliant marketing consent management.
+                            </p>
+                            <ul class="automation-features">
+                                <li>Automatic confirmation & thank you emails</li>
+                                <li>Google Sheets database integration</li>
+                                <li>GDPR-compliant consent management</li>
+                                <li>Real-time data organization & cataloging</li>
+                            </ul>
+                            <div class="automation-pricing">
+                                <span class="price-tag">Starting from €19.99/month</span>
+                                <span class="price-note">All prices include VAT • Multiple plans available</span>
+                            </div>
+                            <a class="project-link" onclick="showProjectDetail('form-automation-pricing')" style="margin-top: 1.5rem; display: inline-block; background: #000; color: #fff; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer; text-decoration: none;">View Plans & Pricing →</a>
+                            <span class="automation-tag">Never Lose a Lead</span>
+                        </div>
+                    </article>
+
+                    <article class="automation-card animate-on-scroll stagger-3">
+                        <div class="automation-preview assistant-automation">
+                            <h3 class="automation-preview-title">AI Chatbot Integration</h3>
+                            <div class="automation-icon">
+                                <div class="icon-graphic">
+                                    <div class="chat-bubble">
+                                        <div class="chat-dots">
+                                            <div class="dot"></div>
+                                            <div class="dot"></div>
+                                            <div class="dot"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="automation-info">
+                            <p class="automation-description">
+                                Deploy intelligent AI chatbots directly on your website to handle customer inquiries 24/7.
+                                Trained on your business information, chatbots provide instant answers, qualify leads,
+                                and reduce support workload without requiring direct contact.
+                            </p>
+                            <ul class="automation-features">
+                                <li>Custom-trained on your business data</li>
+                                <li>24/7 instant customer support</li>
+                                <li>Lead qualification & data collection</li>
+                                <li>Seamless website integration</li>
+                            </ul>
+                            <div class="automation-pricing">
+                                <span class="price-tag">€49.99/month</span>
+                                <span class="price-note">Price includes VAT • Full-service setup</span>
+                            </div>
+                            <a class="project-link" onclick="showProjectDetail('chatbot-automation-pricing')" style="margin-top: 1.5rem; display: inline-block; background: #000; color: #fff; padding: 0.75rem 2rem; border-radius: 4px; cursor: pointer; text-decoration: none;">View Details & Pricing →</a>
+                            <span class="automation-tag">24/7 Customer Support</span>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="automation-compliance-note animate-on-scroll stagger-2">
+                    <h3>Why Choose Automation?</h3>
+                    <div class="value-comparison">
+                        <div class="comparison-item">
+                            <div class="comparison-label">Virtual Assistant</div>
+                            <div class="comparison-price">€20-30/hour = €3,200+/month</div>
+                        </div>
+                        <div class="comparison-vs">VS</div>
+                        <div class="comparison-item highlight">
+                            <div class="comparison-label">Automation Service</div>
+                            <div class="comparison-price">€19.99/month</div>
+                            <div class="comparison-savings">Save 95% - Works 24/7 - Never takes breaks</div>
+                        </div>
+                    </div>
+
+                    <h3>Flexible Monthly Subscriptions</h3>
+                    <p>
+                        All automation services are offered as flexible monthly subscriptions starting from €19.99/month.
+                        No long-term contracts, cancel anytime. Pricing varies based on complexity, email volume,
+                        and integrations needed. Setup fee may apply for custom configurations.
+                    </p>
+                    <h3>Data Protection & Privacy</h3>
+                    <p>
+                        All automation services are fully compliant with GDPR regulations. We use secure OAuth 2.0
+                        authentication and API tokens - never storing passwords. Sensitive information is processed
+                        with encryption, stored in GDPR-compliant infrastructure, and handled in accordance with
+                        data protection laws. You maintain full control and can revoke access anytime.
+                    </p>
+                    <a class="automation-contact-button" onclick="showPage('contact')">Discuss Your Project →</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container">
+                <h3>Stay in the loop</h3>
+                <p>Weekly tips on web design, automation, and AI tools. No spam, just useful stuff.</p>
+                <form class="newsletter-form" action="#" method="POST" onsubmit="return handleNewsletterSubmit(event)">
+                    <input type="email" name="email" placeholder="Your email address" required aria-label="Email address for newsletter">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Giovanni Londi - Web Designer & Developer | <a onclick="showPage('privacy')" style="color: #888; text-decoration: underline; cursor: pointer;">Privacy Policy</a></p>
+        </footer>
+    </div>
+
+    <!-- STYLES PAGE -->
+    <div id="styles" class="page-section">
+        <div class="page-header">
+            <h1>Design Styles</h1>
+            <p>Versatile design approaches tailored to your brand's personality</p>
+        </div>
+
+        <section class="content-section">
+            <div class="container">
+                <div class="styles-grid">
+                    <div class="style-card animate-on-scroll">
+                        <div class="style-preview minimalist">
+                            <div class="template-mock">
+                                <div class="mock-nav"></div>
+                                <div class="mock-hero">CLEAN & MINIMAL</div>
+                                <div class="mock-content">
+                                    <div class="mock-box"></div>
+                                    <div class="mock-box"></div>
+                                    <div class="mock-box"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="style-info">
+                            <h3>Minimalist</h3>
+                            <p>
+                                Clean lines, subtle colors, and strategic whitespace create an elegant,
+                                professional aesthetic. Perfect for businesses that value sophistication
+                                and clarity.
+                            </p>
+                            <span class="style-tag">Professional</span>
+                            <a class="style-link" onclick="showProjectDetail('style-minimalist')" aria-label="View Minimalist design style details">Learn More →</a>
+                        </div>
+                    </div>
+
+                    <div class="style-card animate-on-scroll stagger-1">
+                        <div class="style-preview colorful">
+                            <div class="template-mock">
+                                <div class="mock-nav"></div>
+                                <div class="mock-hero">BOLD & VIBRANT</div>
+                                <div class="mock-content">
+                                    <div class="mock-box"></div>
+                                    <div class="mock-box"></div>
+                                    <div class="mock-box"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="style-info">
+                            <h3>Colorful</h3>
+                            <p>
+                                Rich gradients, vibrant color palettes, and dynamic layouts bring energy
+                                and creativity to your brand. Ideal for artistic and creative businesses.
+                            </p>
+                            <span class="style-tag">Creative</span>
+                            <a class="style-link" onclick="showProjectDetail('style-colorful')" aria-label="View Colorful design style details">Learn More →</a>
+                        </div>
+                    </div>
+
+                    <div class="style-card animate-on-scroll stagger-2">
+                        <div class="style-preview serious">
+                            <div class="template-mock">
+                                <div class="mock-nav"></div>
+                                <div class="mock-hero">CORPORATE TRUST</div>
+                                <div class="mock-content">
+                                    <div class="mock-box"></div>
+                                    <div class="mock-box"></div>
+                                    <div class="mock-box"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="style-info">
+                            <h3>Serious Corporate</h3>
+                            <p>
+                                Dark, professional themes with sharp contrasts convey authority and
+                                trustworthiness. Perfect for financial, legal, and B2B enterprises.
+                            </p>
+                            <span class="style-tag">Corporate</span>
+                            <a class="style-link" onclick="showProjectDetail('style-serious')" aria-label="View Serious Corporate design style details">Learn More →</a>
+                        </div>
+                    </div>
+
+                    <div class="style-card animate-on-scroll stagger-3">
+                        <div class="style-preview modern">
+                            <div class="template-mock">
+                                <div class="mock-nav"></div>
+                                <div class="mock-hero">FRESH & MODERN</div>
+                                <div class="mock-content">
+                                    <div class="mock-box"></div>
+                                    <div class="mock-box"></div>
+                                    <div class="mock-box"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="style-info">
+                            <h3>Modern Tech</h3>
+                            <p>
+                                Bright blues and clean interfaces reflect innovation and forward-thinking.
+                                Ideal for tech startups, SaaS products, and digital agencies.
+                            </p>
+                            <span class="style-tag">Tech</span>
+                            <a class="style-link" onclick="showProjectDetail('style-modern')" aria-label="View Modern Tech design style details">Learn More →</a>
+                        </div>
+                    </div>
+
+                    <div class="style-card animate-on-scroll stagger-4">
+                        <div class="style-preview elegant">
+                            <div class="template-mock">
+                                <div class="mock-nav"></div>
+                                <div class="mock-hero">WARM & ELEGANT</div>
+                                <div class="mock-content">
+                                    <div class="mock-box"></div>
+                                    <div class="mock-box"></div>
+                                    <div class="mock-box"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="style-info">
+                            <h3>Elegant Warmth</h3>
+                            <p>
+                                Warm tones and refined details create inviting, luxurious experiences.
+                                Perfect for hospitality, lifestyle brands, and premium services.
+                            </p>
+                            <span class="style-tag">Luxury</span>
+                            <a class="style-link" onclick="showProjectDetail('style-elegant')" aria-label="View Elegant Warmth design style details">Learn More →</a>
+                        </div>
+                    </div>
+
+                    <div class="style-card animate-on-scroll stagger-4">
+                        <div class="style-preview vibrant">
+                            <div class="template-mock">
+                                <div class="mock-nav"></div>
+                                <div class="mock-hero">PLAYFUL ENERGY</div>
+                                <div class="mock-content">
+                                    <div class="mock-box"></div>
+                                    <div class="mock-box"></div>
+                                    <div class="mock-box"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="style-info">
+                            <h3>Vibrant & Playful</h3>
+                            <p>
+                                Multi-color gradients and energetic designs capture attention and express
+                                joy. Great for entertainment, events, and youth-focused brands.
+                            </p>
+                            <span class="style-tag">Fun</span>
+                            <a class="style-link" onclick="showProjectDetail('style-vibrant')" aria-label="View Vibrant Playful design style details">Learn More →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container">
+                <h3>Stay in the loop</h3>
+                <p>Weekly tips on web design, automation, and AI tools. No spam, just useful stuff.</p>
+                <form class="newsletter-form" action="#" method="POST" onsubmit="return handleNewsletterSubmit(event)">
+                    <input type="email" name="email" placeholder="Your email address" required aria-label="Email address for newsletter">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Giovanni Londi - Web Designer & Developer | <a onclick="showPage('privacy')" style="color: #888; text-decoration: underline; cursor: pointer;">Privacy Policy</a></p>
+        </footer>
+    </div>
+
+    <!-- STYLE DETAIL: MINIMALIST -->
+    <div id="style-minimalist" class="page-section style-detail">
+        <div class="project-detail-header">
+            <h1>Minimalist Design</h1>
+            <p class="meta">Clean / Professional / Sophisticated</p>
+        </div>
+
+        <section class="project-detail-content">
+            <div class="container">
+                <a class="back-button animate-on-scroll" onclick="showPage('styles')">← Back to Styles</a>
+
+                <div class="style-detail-preview animate-on-scroll stagger-1">
+                    <div class="style-preview minimalist" style="height: 500px;">
+                        <div class="template-mock">
+                            <div class="mock-nav"></div>
+                            <div class="mock-hero">CLEAN & MINIMAL</div>
+                            <div class="mock-content">
+                                <div class="mock-box"></div>
+                                <div class="mock-box"></div>
+                                <div class="mock-box"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-description animate-on-scroll stagger-2">
+                    <h2>Philosophy</h2>
+                    <p>
+                        Minimalist design embraces the principle of "less is more." By stripping away
+                        unnecessary elements, we create websites that are elegant, professional, and
+                        incredibly effective. Clean lines, ample whitespace, and subtle color palettes
+                        allow your content to breathe and your message to shine.
+                    </p>
+
+                    <h3>Key Characteristics</h3>
+                    <ul>
+                        <li>Strategic use of whitespace to create visual hierarchy</li>
+                        <li>Limited color palette (typically 2-3 colors maximum)</li>
+                        <li>Clean, sans-serif typography with excellent readability</li>
+                        <li>Subtle animations and micro-interactions</li>
+                        <li>Grid-based layouts for perfect alignment</li>
+                        <li>High contrast for clarity and accessibility</li>
+                        <li>Removal of decorative elements in favor of functionality</li>
+                    </ul>
+
+                    <h3>Ideal For</h3>
+                    <p>
+                        This approach is perfect for businesses that value sophistication and clarity.
+                        Professional services firms, consultants, architects, designers, and high-end
+                        B2B companies benefit most from minimalist design. It conveys trust,
+                        competence, and attention to detail—qualities that matter in serious business contexts.
+                    </p>
+
+                    <h3>Technical Approach</h3>
+                    <p>
+                        Built with semantic HTML and clean CSS, minimalist sites are typically the
+                        fastest-loading option. The simplified design means less code, better performance,
+                        and easier maintenance. Every element serves a purpose, resulting in excellent
+                        user experience and conversion rates.
+                    </p>
+
+                    <h3>User Experience</h3>
+                    <p>
+                        Users appreciate minimalist design because it eliminates distractions and makes
+                        navigation intuitive. Clear calls-to-action, obvious navigation paths, and
+                        uncluttered layouts reduce cognitive load and help visitors accomplish their
+                        goals quickly and efficiently.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container">
+                <h3>Stay in the loop</h3>
+                <p>Weekly tips on web design, automation, and AI tools. No spam, just useful stuff.</p>
+                <form class="newsletter-form" action="#" method="POST" onsubmit="return handleNewsletterSubmit(event)">
+                    <input type="email" name="email" placeholder="Your email address" required aria-label="Email address for newsletter">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Giovanni Londi - Web Designer & Developer | <a onclick="showPage('privacy')" style="color: #888; text-decoration: underline; cursor: pointer;">Privacy Policy</a></p>
+        </footer>
+    </div>
+
+    <!-- STYLE DETAIL: COLORFUL -->
+    <div id="style-colorful" class="page-section style-detail">
+        <div class="project-detail-header">
+            <h1>Colorful Design</h1>
+            <p class="meta">Bold / Vibrant / Creative</p>
+        </div>
+
+        <section class="project-detail-content">
+            <div class="container">
+                <a class="back-button animate-on-scroll" onclick="showPage('styles')">← Back to Styles</a>
+
+                <div class="style-detail-preview animate-on-scroll stagger-1">
+                    <div class="style-preview colorful" style="height: 500px;">
+                        <div class="template-mock">
+                            <div class="mock-nav"></div>
+                            <div class="mock-hero">BOLD & VIBRANT</div>
+                            <div class="mock-content">
+                                <div class="mock-box"></div>
+                                <div class="mock-box"></div>
+                                <div class="mock-box"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-description animate-on-scroll stagger-2">
+                    <h2>Philosophy</h2>
+                    <p>
+                        Colorful design celebrates visual richness and emotional expression through bold
+                        color choices, dynamic gradients, and energetic layouts. This approach captures
+                        attention immediately and creates memorable experiences that reflect creativity,
+                        passion, and innovation.
+                    </p>
+
+                    <h3>Key Characteristics</h3>
+                    <ul>
+                        <li>Rich gradient backgrounds (often multiple colors blending)</li>
+                        <li>Bold, contrasting color combinations</li>
+                        <li>Creative use of color overlays and filters</li>
+                        <li>Dynamic layouts with asymmetrical elements</li>
+                        <li>Playful typography with varied weights and styles</li>
+                        <li>Vibrant imagery and illustrations</li>
+                        <li>Energetic animations and transitions</li>
+                    </ul>
+
+                    <h3>Ideal For</h3>
+                    <p>
+                        Perfect for creative agencies, artists, photographers, designers, event companies,
+                        entertainment venues, music studios, and any business that wants to showcase
+                        personality and stand out from competitors. This style works exceptionally well
+                        for brands targeting younger, trend-conscious audiences.
+                    </p>
+
+                    <h3>Technical Approach</h3>
+                    <p>
+                        Colorful designs leverage CSS gradients, blend modes, and creative animations.
+                        While more visually complex than minimalist approaches, modern CSS techniques
+                        ensure these sites remain performant. Careful attention to color theory and
+                        contrast ensures readability isn't sacrificed for visual impact.
+                    </p>
+
+                    <h3>User Experience</h3>
+                    <p>
+                        The bold visual style creates an emotional connection and memorable brand
+                        experience. Users remember colorful websites longer and often associate them
+                        with innovation and creativity. The key is balancing visual excitement with
+                        usability—ensuring the design enhances rather than hinders functionality.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container">
+                <h3>Stay in the loop</h3>
+                <p>Weekly tips on web design, automation, and AI tools. No spam, just useful stuff.</p>
+                <form class="newsletter-form" action="#" method="POST" onsubmit="return handleNewsletterSubmit(event)">
+                    <input type="email" name="email" placeholder="Your email address" required aria-label="Email address for newsletter">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Giovanni Londi - Web Designer & Developer | <a onclick="showPage('privacy')" style="color: #888; text-decoration: underline; cursor: pointer;">Privacy Policy</a></p>
+        </footer>
+    </div>
+
+    <!-- STYLE DETAIL: SERIOUS -->
+    <div id="style-serious" class="page-section style-detail">
+        <div class="project-detail-header">
+            <h1>Serious Corporate Design</h1>
+            <p class="meta">Professional / Authoritative / Trustworthy</p>
+        </div>
+
+        <section class="project-detail-content">
+            <div class="container">
+                <a class="back-button animate-on-scroll" onclick="showPage('styles')">← Back to Styles</a>
+
+                <div class="style-detail-preview animate-on-scroll stagger-1">
+                    <div class="style-preview serious" style="height: 500px;">
+                        <div class="template-mock">
+                            <div class="mock-nav"></div>
+                            <div class="mock-hero">CORPORATE TRUST</div>
+                            <div class="mock-content">
+                                <div class="mock-box"></div>
+                                <div class="mock-box"></div>
+                                <div class="mock-box"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-description animate-on-scroll stagger-2">
+                    <h2>Philosophy</h2>
+                    <p>
+                        Serious corporate design conveys authority, trustworthiness, and professional
+                        excellence through dark color schemes, sharp contrasts, and refined typography.
+                        This approach communicates that your business is established, reliable, and
+                        operates at the highest level of professionalism.
+                    </p>
+
+                    <h3>Key Characteristics</h3>
+                    <ul>
+                        <li>Dark backgrounds (charcoal, deep navy, or black)</li>
+                        <li>High-contrast white or light text for readability</li>
+                        <li>Sharp, geometric layouts with precise alignment</li>
+                        <li>Professional serif or refined sans-serif fonts</li>
+                        <li>Subtle metallic accents (silver, gold) sparingly used</li>
+                        <li>Minimal but purposeful animations</li>
+                        <li>Data visualization and professional imagery</li>
+                    </ul>
+
+                    <h3>Ideal For</h3>
+                    <p>
+                        Essential for financial institutions, law firms, consulting agencies, corporate
+                        enterprises, cybersecurity companies, and B2B tech platforms. This style
+                        establishes credibility with executives and decision-makers who expect
+                        sophistication and gravitas from their business partners.
+                    </p>
+
+                    <h3>Technical Approach</h3>
+                    <p>
+                        Dark themes require careful attention to accessibility and contrast ratios.
+                        We use WCAG-compliant color combinations, ensure text remains readable on
+                        all screens, and implement smooth transitions that feel premium without
+                        being distracting. Every element reinforces the professional atmosphere.
+                    </p>
+
+                    <h3>User Experience</h3>
+                    <p>
+                        Corporate users expect efficiency and clarity. The dark aesthetic reduces
+                        eye strain during extended viewing sessions, while the clear information
+                        hierarchy helps busy professionals find what they need quickly. Trust is
+                        built through consistent, refined execution across every page.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container">
+                <h3>Stay in the loop</h3>
+                <p>Weekly tips on web design, automation, and AI tools. No spam, just useful stuff.</p>
+                <form class="newsletter-form" action="#" method="POST" onsubmit="return handleNewsletterSubmit(event)">
+                    <input type="email" name="email" placeholder="Your email address" required aria-label="Email address for newsletter">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Giovanni Londi - Web Designer & Developer | <a onclick="showPage('privacy')" style="color: #888; text-decoration: underline; cursor: pointer;">Privacy Policy</a></p>
+        </footer>
+    </div>
+
+    <!-- STYLE DETAIL: MODERN -->
+    <div id="style-modern" class="page-section style-detail">
+        <div class="project-detail-header">
+            <h1>Modern Tech Design</h1>
+            <p class="meta">Innovative / Clean / Forward-Thinking</p>
+        </div>
+
+        <section class="project-detail-content">
+            <div class="container">
+                <a class="back-button animate-on-scroll" onclick="showPage('styles')">← Back to Styles</a>
+
+                <div class="style-detail-preview animate-on-scroll stagger-1">
+                    <div class="style-preview modern" style="height: 500px;">
+                        <div class="template-mock">
+                            <div class="mock-nav"></div>
+                            <div class="mock-hero">FRESH & MODERN</div>
+                            <div class="mock-content">
+                                <div class="mock-box"></div>
+                                <div class="mock-box"></div>
+                                <div class="mock-box"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-description animate-on-scroll stagger-2">
+                    <h2>Philosophy</h2>
+                    <p>
+                        Modern tech design embodies innovation through bright, optimistic color palettes
+                        (typically blues and teals) combined with clean interfaces and contemporary
+                        design patterns. This style signals that your company is forward-thinking,
+                        tech-savvy, and built for the future.
+                    </p>
+
+                    <h3>Key Characteristics</h3>
+                    <ul>
+                        <li>Bright blue and cyan color schemes suggesting digital innovation</li>
+                        <li>Glass morphism and frosted glass effects</li>
+                        <li>Smooth, flowing animations and transitions</li>
+                        <li>Modern rounded corners and soft shadows</li>
+                        <li>Clean iconography and vector illustrations</li>
+                        <li>Dashboard-style layouts with clear information cards</li>
+                        <li>Interactive elements that respond to user actions</li>
+                    </ul>
+
+                    <h3>Ideal For</h3>
+                    <p>
+                        Perfect for SaaS products, tech startups, software companies, digital agencies,
+                        app developers, and cloud service providers. This style resonates with
+                        tech-forward audiences and early adopters who appreciate contemporary design
+                        trends and expect cutting-edge user experiences.
+                    </p>
+
+                    <h3>Technical Approach</h3>
+                    <p>
+                        Modern tech sites leverage the latest CSS techniques including backdrop-filter,
+                        CSS Grid, and smooth animations powered by modern JavaScript frameworks when
+                        needed. The design emphasizes clarity and usability while showcasing technical
+                        sophistication through subtle effects and polished interactions.
+                    </p>
+
+                    <h3>User Experience</h3>
+                    <p>
+                        Users expect modern tech sites to be fast, responsive, and intuitive. The bright,
+                        optimistic color scheme creates positive associations with your brand, while
+                        clear interface patterns (borrowed from successful tech products) ensure
+                        familiarity and ease of use. Every interaction feels smooth and intentional.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container">
+                <h3>Stay in the loop</h3>
+                <p>Weekly tips on web design, automation, and AI tools. No spam, just useful stuff.</p>
+                <form class="newsletter-form" action="#" method="POST" onsubmit="return handleNewsletterSubmit(event)">
+                    <input type="email" name="email" placeholder="Your email address" required aria-label="Email address for newsletter">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Giovanni Londi - Web Designer & Developer | <a onclick="showPage('privacy')" style="color: #888; text-decoration: underline; cursor: pointer;">Privacy Policy</a></p>
+        </footer>
+    </div>
+
+    <!-- STYLE DETAIL: ELEGANT -->
+    <div id="style-elegant" class="page-section style-detail">
+        <div class="project-detail-header">
+            <h1>Elegant Warmth Design</h1>
+            <p class="meta">Luxurious / Inviting / Refined</p>
+        </div>
+
+        <section class="project-detail-content">
+            <div class="container">
+                <a class="back-button animate-on-scroll" onclick="showPage('styles')">← Back to Styles</a>
+
+                <div class="style-detail-preview animate-on-scroll stagger-1">
+                    <div class="style-preview elegant" style="height: 500px;">
+                        <div class="template-mock">
+                            <div class="mock-nav"></div>
+                            <div class="mock-hero">WARM & ELEGANT</div>
+                            <div class="mock-content">
+                                <div class="mock-box"></div>
+                                <div class="mock-box"></div>
+                                <div class="mock-box"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-description animate-on-scroll stagger-2">
+                    <h2>Philosophy</h2>
+                    <p>
+                        Elegant warmth combines luxury aesthetics with inviting, comfortable design.
+                        Using warm color palettes (peaches, soft golds, warm grays) and refined
+                        typography, this style creates premium experiences that feel both sophisticated
+                        and welcoming—perfect for brands that want to convey quality without coldness.
+                    </p>
+
+                    <h3>Key Characteristics</h3>
+                    <ul>
+                        <li>Warm color palettes with peachy, golden, and cream tones</li>
+                        <li>Elegant serif typography for headers, refined sans-serif for body</li>
+                        <li>Soft shadows and subtle gradients</li>
+                        <li>High-quality photography with warm color grading</li>
+                        <li>Generous whitespace creating breathing room</li>
+                        <li>Refined details like custom cursors or subtle patterns</li>
+                        <li>Smooth, gentle animations that feel luxurious</li>
+                    </ul>
+
+                    <h3>Ideal For</h3>
+                    <p>
+                        Excellent for boutique hotels, luxury restaurants, spa and wellness centers,
+                        premium lifestyle brands, wedding planners, high-end real estate, and personal
+                        services that emphasize quality and attention to detail. This style appeals to
+                        audiences who value refinement and are willing to pay for exceptional experiences.
+                    </p>
+
+                    <h3>Technical Approach</h3>
+                    <p>
+                        Elegant sites balance visual richness with performance. We use optimized images,
+                        subtle CSS filters for warm tones, and carefully timed animations that enhance
+                        the premium feel. Every element is polished to perfection, from loading
+                        transitions to micro-interactions, creating a cohesive luxury experience.
+                    </p>
+
+                    <h3>User Experience</h3>
+                    <p>
+                        The warm color palette creates positive emotional associations and feelings of
+                        comfort. Users linger longer on elegant sites because they enjoy the visual
+                        experience. Clear navigation ensures the beautiful design never compromises
+                        usability—luxury and functionality work in perfect harmony.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container">
+                <h3>Stay in the loop</h3>
+                <p>Weekly tips on web design, automation, and AI tools. No spam, just useful stuff.</p>
+                <form class="newsletter-form" action="#" method="POST" onsubmit="return handleNewsletterSubmit(event)">
+                    <input type="email" name="email" placeholder="Your email address" required aria-label="Email address for newsletter">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Giovanni Londi - Web Designer & Developer | <a onclick="showPage('privacy')" style="color: #888; text-decoration: underline; cursor: pointer;">Privacy Policy</a></p>
+        </footer>
+    </div>
+
+    <!-- STYLE DETAIL: VIBRANT -->
+    <div id="style-vibrant" class="page-section style-detail">
+        <div class="project-detail-header">
+            <h1>Vibrant & Playful Design</h1>
+            <p class="meta">Energetic / Fun / Eye-Catching</p>
+        </div>
+
+        <section class="project-detail-content">
+            <div class="container">
+                <a class="back-button animate-on-scroll" onclick="showPage('styles')">← Back to Styles</a>
+
+                <div class="style-detail-preview animate-on-scroll stagger-1">
+                    <div class="style-preview vibrant" style="height: 500px;">
+                        <div class="template-mock">
+                            <div class="mock-nav"></div>
+                            <div class="mock-hero">PLAYFUL ENERGY</div>
+                            <div class="mock-content">
+                                <div class="mock-box"></div>
+                                <div class="mock-box"></div>
+                                <div class="mock-box"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-description animate-on-scroll stagger-2">
+                    <h2>Philosophy</h2>
+                    <p>
+                        Vibrant and playful design throws caution to the wind, embracing maximum visual
+                        energy through multi-color gradients, bold typography, and dynamic animations.
+                        This style is all about joy, excitement, and creating unforgettable first
+                        impressions that reflect brands with personality and confidence.
+                    </p>
+
+                    <h3>Key Characteristics</h3>
+                    <ul>
+                        <li>Multi-color gradients combining 3+ vibrant hues</li>
+                        <li>Bold, oversized typography with varied styles</li>
+                        <li>Playful animations and interactive elements</li>
+                        <li>Asymmetrical layouts that break traditional grids</li>
+                        <li>Fun illustrations and custom graphics</li>
+                        <li>Energetic micro-interactions and hover effects</li>
+                        <li>Bright, saturated color choices throughout</li>
+                    </ul>
+
+                    <h3>Ideal For</h3>
+                    <p>
+                        Perfect for entertainment companies, event planners, youth brands, gaming
+                        companies, creative agencies targeting Gen Z, festivals, social platforms,
+                        and any business that wants to appear fun, approachable, and energetic.
+                        This style captures attention in crowded markets and appeals to audiences
+                        who value personality over convention.
+                    </p>
+
+                    <h3>Technical Approach</h3>
+                    <p>
+                        Vibrant designs push the boundaries of what's possible with CSS gradients,
+                        transforms, and animations. While visually complex, we optimize performance
+                        through efficient code and smart use of GPU acceleration. The goal is maximum
+                        visual impact without sacrificing load times or smooth interactions.
+                    </p>
+
+                    <h3>User Experience</h3>
+                    <p>
+                        The high-energy aesthetic creates excitement and emotional engagement. Users
+                        are more likely to share vibrant websites on social media because they stand
+                        out. The key challenge is maintaining usability amid visual excitement—we
+                        ensure clear navigation and readable content even with bold design choices.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container">
+                <h3>Stay in the loop</h3>
+                <p>Weekly tips on web design, automation, and AI tools. No spam, just useful stuff.</p>
+                <form class="newsletter-form" action="#" method="POST" onsubmit="return handleNewsletterSubmit(event)">
+                    <input type="email" name="email" placeholder="Your email address" required aria-label="Email address for newsletter">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Giovanni Londi - Web Designer & Developer | <a onclick="showPage('privacy')" style="color: #888; text-decoration: underline; cursor: pointer;">Privacy Policy</a></p>
+        </footer>
+    </div>
+
+    <!-- PRIVACY POLICY PAGE -->
+    <div id="privacy" class="page-section">
+        <div class="page-header">
+            <h1>Privacy Policy</h1>
+            <p>How we handle and protect your information</p>
+        </div>
+
+        <section class="content-section">
+            <div class="container">
+                <div class="privacy-content animate-on-scroll">
+                    <p class="privacy-intro">
+                        At Giovanni Londi Web Design & Development, your privacy is of utmost importance.
+                        This Privacy Policy outlines how we collect, use, and protect your personal information
+                        in compliance with the General Data Protection Regulation (GDPR).
+                    </p>
+
+                    <p class="privacy-updated">
+                        <em>Last updated: November 2025</em>
+                    </p>
+
+                    <div class="privacy-section">
+                        <h2>1. Data Controller</h2>
+                        <p>
+                            The Data Controller is Giovanni Londi, Maastricht, Netherlands.
+                        </p>
+                        <div class="privacy-contact">
+                            <p><strong>Contact:</strong> info@webbiecraft.com, +39 389 496 6973</p>
+                        </div>
+                    </div>
+
+                    <div class="privacy-section">
+                        <h2>2. Categories of Data Collected</h2>
+                        <p>We collect the following categories of data:</p>
+
+                        <h3>2.1. General Website and Contact Data</h3>
+                        <ul>
+                            <li>Name, email address, phone number</li>
+                            <li>Project details you voluntarily provide</li>
+                            <li>Communication and correspondence</li>
+                            <li>Billing and contractual data</li>
+                        </ul>
+
+                        <h3>2.2. Technical Data</h3>
+                        <ul>
+                            <li>IP address, browser type, device information</li>
+                            <li>Access logs for security and diagnostics</li>
+                        </ul>
+
+                        <h3>2.3. Automation Services Data</h3>
+                        <p>
+                            If you use our workflow automation services (email automations, document processing,
+                            personal assistant automations, etc.), we may process:
+                        </p>
+                        <ul>
+                            <li>Data retrieved via OAuth 2.0 or API tokens</li>
+                            <li>Calendar data</li>
+                            <li>Email metadata (not content unless required by the automation)</li>
+                            <li>Documents and files processed through your workflows</li>
+                            <li>Automation workflow metadata (timestamps, task logs, execution errors)</li>
+                        </ul>
+                        <p>We only access data strictly necessary for the requested automation.</p>
+                    </div>
+
+                    <div class="privacy-section">
+                        <h2>3. Purposes and Legal Bases (GDPR Art. 6)</h2>
+                        <ul>
+                            <li><strong>3.1. To respond to inquiries</strong><br>Legal basis: Art. 6(1)(b) – performance of pre-contractual steps</li>
+                            <li><strong>3.2. To deliver requested services and automations</strong><br>Legal basis: Art. 6(1)(b) – performance of a contract</li>
+                            <li><strong>3.3. To improve website functionality and security</strong><br>Legal basis: Art. 6(1)(f) – legitimate interest</li>
+                            <li><strong>3.4. To comply with legal obligations (billing, tax, record-keeping)</strong><br>Legal basis: Art. 6(1)(c)</li>
+                            <li><strong>3.5. Optional analytics or marketing (if enabled)</strong><br>Legal basis: Art. 6(1)(a) – consent</li>
+                        </ul>
+                    </div>
+
+                    <div class="privacy-section">
+                        <h2>4. Automation Services & Data Protection</h2>
+                        <p>When providing automation workflows:</p>
+                        <ul>
+                            <li><strong>Secure Authentication:</strong> OAuth 2.0, API keys, app passwords</li>
+                            <li><strong>Revocable Access:</strong> You may revoke access at any time</li>
+                            <li><strong>Encrypted Processing:</strong> All data exchanged is processed via encrypted channels</li>
+                            <li><strong>Minimal Data Access:</strong> Only the data required for your requested automation is processed</li>
+                            <li><strong>EU-based infrastructure:</strong> Primary storage and processing kept within GDPR jurisdiction</li>
+                            <li><strong>Auditing & Logging:</strong> Access to user data is limited, logged, and audited</li>
+                        </ul>
+                        <p><strong>We never request or store your main account passwords.</strong></p>
+                    </div>
+
+                    <div class="privacy-section">
+                        <h2>5. Third-Party Providers (Processors)</h2>
+                        <p>We use trusted service providers, including:</p>
+                        <ul>
+                            <li>Formspree (contact form)</li>
+                            <li>Hosting providers and cloud infrastructure</li>
+                            <li>Automation API providers (depending on workflow)</li>
+                            <li>Logging and monitoring tools</li>
+                        </ul>
+                        <p>All providers are bound by GDPR-compliant Data Processing Agreements (DPAs).</p>
+                    </div>
+
+                    <div class="privacy-section">
+                        <h2>6. International Data Transfers</h2>
+                        <p>If any provider stores or processes data outside the EU:</p>
+                        <ul>
+                            <li>Transfers are protected by Standard Contractual Clauses (SCCs)</li>
+                            <li>Equivalent GDPR safeguards are applied</li>
+                            <li>Providers undergo security and privacy assessments</li>
+                        </ul>
+                    </div>
+
+                    <div class="privacy-section">
+                        <h2>7. Data Retention</h2>
+                        <ul>
+                            <li>Contact inquiries: up to 12 months</li>
+                            <li>Project and contractual data: 10 years (legal obligation)</li>
+                            <li>Automation workflow data: retained only as needed for service delivery</li>
+                            <li>Technical logs: 30–90 days</li>
+                        </ul>
+                        <p>Data is deleted or anonymized after the retention period.</p>
+                    </div>
+
+                    <div class="privacy-section">
+                        <h2>8. Your Rights Under GDPR</h2>
+                        <p>You may request:</p>
+                        <ul>
+                            <li>Access to your data</li>
+                            <li>Correction of incorrect or incomplete data</li>
+                            <li>Deletion (Right to be forgotten)</li>
+                            <li>Restriction of processing</li>
+                            <li>Data portability</li>
+                            <li>Objection to certain processing</li>
+                            <li>Withdrawal of consent at any time</li>
+                        </ul>
+                        <p>You may file a complaint with:</p>
+                        <p><strong>Autoriteit Persoonsgegevens</strong> (Dutch Data Protection Authority)<br>
+                        <a href="https://autoriteitpersoonsgegevens.nl/" target="_blank" rel="noopener noreferrer" style="color: #000; text-decoration: underline;">https://autoriteitpersoonsgegevens.nl/</a></p>
+                    </div>
+
+                    <div class="privacy-section">
+                        <h2>9. Cookies and Tracking</h2>
+                        <p>We use only essential cookies and privacy-friendly analytics (if used):</p>
+                        <ul>
+                            <li>No advertising cookies</li>
+                            <li>No third-party trackers</li>
+                            <li>Cookies are minimized and configured for GDPR compliance</li>
+                        </ul>
+                        <p>A separate Cookie Policy may be provided if the site expands its tracking technologies.</p>
+                    </div>
+
+                    <div class="privacy-section">
+                        <h2>10. Security Measures</h2>
+                        <p>We implement:</p>
+                        <ul>
+                            <li>TLS/SSL secure data transmission</li>
+                            <li>User authentication and access control</li>
+                            <li>Encrypted storage</li>
+                            <li>Security audits and monitoring</li>
+                            <li>Secure backup and recovery procedures</li>
+                        </ul>
+                    </div>
+
+                    <div class="privacy-section">
+                        <h2>11. Automated Decision-Making</h2>
+                        <p>
+                            We do not engage in automated decision-making producing legal or significant effects.
+                            Workflow automations only execute user-defined actions.
+                        </p>
+                    </div>
+
+                    <div class="privacy-section">
+                        <h2>12. Changes to This Policy</h2>
+                        <p>
+                            We may update this Privacy Policy to reflect changes in our services or legal requirements.
+                            Updated versions will be posted on this page.
+                        </p>
+                    </div>
+
+                    <div class="privacy-section">
+                        <h2>13. Contact</h2>
+                        <p>
+                            For privacy inquiries, to exercise your GDPR rights, or for concerns about how your
+                            data is handled, please contact us:
+                        </p>
+                        <div class="privacy-contact">
+                            <p><strong>Email:</strong> info@webbiecraft.com</p>
+                            <p><strong>Phone:</strong> +39 389 496 6973</p>
+                            <p><strong>Location:</strong> Maastricht, Netherlands</p>
+                        </div>
+                    </div>
+
+                    <div class="privacy-back">
+                        <a class="back-button" onclick="showPage('landing')">← Back to Home</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container">
+                <h3>Stay in the loop</h3>
+                <p>Weekly tips on web design, automation, and AI tools. No spam, just useful stuff.</p>
+                <form class="newsletter-form" action="#" method="POST" onsubmit="return handleNewsletterSubmit(event)">
+                    <input type="email" name="email" placeholder="Your email address" required aria-label="Email address for newsletter">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Giovanni Londi - Web Designer & Developer | <a onclick="showPage('privacy')" style="color: #888; text-decoration: underline; cursor: pointer;">Privacy Policy</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+
+    <!-- Chatbot Script -->
+    <script src="chatbot.js"></script>
+</body>
+</html>
