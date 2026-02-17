@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- W Logo - Favicon Version -->
+  <!-- Optimized for small sizes -->
+
+  <!-- White background for favicon -->
+  <rect width="200" height="200" fill="#ffffff"/>
+
+  <g transform="translate(100, 100)">
+
+    <!-- Left diagonal stroke (black) -->
+    <rect x="-82" y="-60" width="22" height="130"
+          transform="rotate(-15 -71 5)"
+          fill="#000000"
+          rx="4"/>
+
+    <!-- Middle V - Down stroke (black) -->
+    <rect x="-42" y="-60" width="22" height="85"
+          transform="rotate(15 -31 -17.5)"
+          fill="#000000"
+          rx="4"/>
+
+    <!-- Middle V - Up stroke (ACCENT - purple) -->
+    <rect x="-22" y="-20" width="22" height="85"
+          transform="rotate(-15 -11 22.5)"
+          fill="#667eea"
+          rx="4"/>
+
+    <!-- Right diagonal stroke (black) -->
+    <rect x="18" y="-60" width="22" height="130"
+          transform="rotate(15 29 5)"
+          fill="#000000"
+          rx="4"/>
+
+  </g>
+</svg>
